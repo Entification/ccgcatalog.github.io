@@ -6,11 +6,9 @@ let cards = [];
 
 let cardsJson = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
 fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
-  .then((res) => res.text())
-  .then((text) => {
-    cardsJson = text;
-   })
-  .catch((e) => console.error(e));
+  .then(response => response.json())
+  .then(data => {console.log(data); cardsJson = data;})
+  .catch(error => console.error('Error:', error));
 let cardsParsed = JSON.parse(cardsJson);
 cardsParsed.forEach(cardParsed => {
 	cards.push(cardParsed[0]);
