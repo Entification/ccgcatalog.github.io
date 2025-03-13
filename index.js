@@ -10,7 +10,7 @@ fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
   .then(data => {console.log(data); cardsParsed = data;})
   .catch(error => console.error('Error:', error));
 
-for (const [k, cardParsed] of Object.entries(object)) {
+for (const [k, cardParsed] of Object.entries(cardsParsed)) {
 	cards.push(cardParsed[0]);
 	const card = document.createElement('img');
 	card.src = 'https://i.imgur.com/' + cardParsed[1] + '.png';
