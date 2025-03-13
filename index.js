@@ -1,7 +1,3 @@
-let cardinfo = document.getElementById('cardinfo');
-let cardinfotext = document.getElementById('cardinfotext');
-let nameInputBox = document.getElementById('searchbyname');
-let descInputBox = document.getElementById('searchbydesc');
 let cards = [];
 
 let cardsParsed = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
@@ -25,13 +21,13 @@ for (const k of Object.entries(cardsParsed)) {
 
 
 function load(loadID) {
-  cardinfo.style.display = 'block';
-  cardinfotext.innerHTML = cardsParsed[loadID][2];
+  document.getElementById('cardinfo');.style.display = 'block';
+  document.getElementById('cardinfotext');.innerHTML = cardsParsed[loadID][2];
 }
 
 function searchForCards() {
-  let nameInput = nameInputBox.value;
-  let descInput = descInputBox.value;
+  let nameInput = document.getElementById('searchbyname');.value;
+  let descInput = document.getElementById('searchbydesc');.value;
   cards.forEach(card => {
 		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase())) {
 			document.querySelector('#' + card).style.display = 'block';
