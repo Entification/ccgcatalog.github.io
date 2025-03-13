@@ -26,7 +26,7 @@ fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
 
 function load(loadID) {
   document.getElementById('cardinfo').style.display = 'block';
-  document.getElementById('cardinfotext').innerHTML = cardsParsed[loadID][2].replace('\n','<br>');
+  document.getElementById('cardinfotext').innerHTML = cardsParsed[loadID][2].replace("\n",'<br>');
 }
 
 function searchForCards() {
