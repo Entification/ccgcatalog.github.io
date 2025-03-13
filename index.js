@@ -12,6 +12,7 @@ fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
 
 for (const [k, cardParsed] of Object.entries(cardsParsed)) {
 	cards.push(cardParsed[0]);
+	console.log(cardParsed[0]);
 	const card = document.createElement('img');
 	card.src = 'https://i.imgur.com/' + cardParsed[1] + '.png';
 	card.alt = 'Error loading card. Please check internet. If issue persists, alert an administrator.'
@@ -20,6 +21,7 @@ for (const [k, cardParsed] of Object.entries(cardsParsed)) {
 	card.onclick = function() { load(card.id); };
 	document.body.appendChild(card);
 }
+
 
 function load(loadID) {
   cardinfo.style.display = 'block';
