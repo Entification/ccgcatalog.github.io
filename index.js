@@ -26,7 +26,7 @@ function load(loadID) {
   cardinfotext.innerHTML = cardsParsed[loadID][2];
 }
 
-function searchThroughCards() {
+function searchForCards() {
   let nameInput = nameInputBox.value;
   let descInput = descInputBox.value;
   cards.forEach(card => {
