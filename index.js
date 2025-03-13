@@ -4,12 +4,12 @@ const nameInputBox = document.getElementById('searchbyname');
 const descInputBox = document.getElementById('searchbydesc');
 let cards = [];
 
-let cardsJson = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
+let cardsParsed = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
 fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
   .then(response => response.json())
-  .then(data => {console.log(data); cardsJson = data;})
+  .then(data => {console.log(data); cardsParsed = data;})
   .catch(error => console.error('Error:', error));
-let cardsParsed = JSON.parse(cardsJson);
+
 cardsParsed.forEach(cardParsed => {
 	cards.push(cardParsed[0]);
 	const card = document.createElement('img');
