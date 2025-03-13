@@ -10,7 +10,8 @@ fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
   .then(data => {console.log(data); cardsParsed = data;})
   .catch(error => console.error('Error:', error));
 
-for (const [k, cardParsed] of Object.entries(cardsParsed)) {
+for (const k of Object.entries(cardsParsed)) {
+	let cardParsed = k[1];
 	cards.push(cardParsed[0]);
 	console.log(cardParsed[0]);
 	const card = document.createElement('img');
