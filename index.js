@@ -1,12 +1,7 @@
 let cards = [];
 
-let cardsParsed = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
-fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
-  .then(response => response.json())
-  .then(data => {console.log(data); cardsParsed = data;})
-  .catch(error => console.error('Error:', error));
-
-for (const k of Object.entries(cardsParsed)) {
+function onParsed() {
+	for (const k of Object.entries(cardsParsed)) {
 	let cardParsed = k[1];
 	cards.push(cardParsed[0]);
 	console.log(cardParsed[0]);
@@ -18,6 +13,15 @@ for (const k of Object.entries(cardsParsed)) {
 	card.onclick = function() { load(card.id); };
 	document.body.appendChild(card);
 }
+}
+
+let cardsParsed = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
+fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
+  .then(response => response.json())
+  .then(data => {console.log(data); cardsParsed = data; onParsed();})
+  .catch(error => console.error('Error:', error));
+
+
 
 
 function load(loadID) {
