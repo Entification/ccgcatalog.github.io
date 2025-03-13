@@ -1,7 +1,7 @@
-const cardinfo = document.getElementById('cardinfo');
-const cardinfotext = document.getElementById('cardinfotext');
-const nameInputBox = document.getElementById('searchbyname');
-const descInputBox = document.getElementById('searchbydesc');
+let cardinfo = document.getElementById('cardinfo');
+let cardinfotext = document.getElementById('cardinfotext');
+let nameInputBox = document.getElementById('searchbyname');
+let descInputBox = document.getElementById('searchbydesc');
 let cards = [];
 
 let cardsParsed = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
