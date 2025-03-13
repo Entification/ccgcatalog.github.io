@@ -1,1 +1,0 @@
-# ccgcatalog.github.io
