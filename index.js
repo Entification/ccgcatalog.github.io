@@ -25,13 +25,13 @@ fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
 
 
 function load(loadID) {
-  document.getElementById('cardinfo');.style.display = 'block';
-  document.getElementById('cardinfotext');.innerHTML = cardsParsed[loadID][2];
+  document.getElementById('cardinfo').style.display = 'block';
+  document.getElementById('cardinfotext').innerHTML = cardsParsed[loadID][2];
 }
 
 function searchForCards() {
-  let nameInput = document.getElementById('searchbyname');.value;
-  let descInput = document.getElementById('searchbydesc');.value;
+  let nameInput = document.getElementById('searchbyname').value;
+  let descInput = document.getElementById('searchbydesc').value;
   cards.forEach(card => {
 		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase())) {
 			document.querySelector('#' + card).style.display = 'block';
