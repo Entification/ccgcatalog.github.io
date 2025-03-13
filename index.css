@@ -10,6 +10,7 @@ body {
             flex-wrap: wrap;
             gap: 0.5in;
             justify-content: center;
+  padding-bottom: 5px;
 }
 p:not(#cardinfotext) {
 text-align: center;
@@ -26,14 +27,7 @@ background-color: rgb(40, 40, 40);
 animation: rotateBackForth 1s ease-in-out infinite alternate;
 cursor: pointer;
 }
-.lowerpadding {
-  top: 100%;
-  height: 10px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  transform: translate(0, -100%);
-  position: fixed;
-}
+
         @keyframes rotateBackForth {
             0% {
                 transform: rotate(0deg);
