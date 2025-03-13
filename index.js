@@ -5,7 +5,7 @@ const descInputBox = document.getElementById('searchbydesc');
 let cards = [];
 
 let cardsJson = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
-fetch("cards.json")
+fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
   .then((res) => res.text())
   .then((text) => {
     cardsJson = text;
