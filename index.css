@@ -6,6 +6,10 @@ body {
   margin: 0px;
   user-select: none;
   color: white;
+  display: flex;
+            flex-wrap: wrap;
+            gap: 0.5in;
+            justify-content: center;
 }
 p:not(#cardinfotext) {
 text-align: center;
@@ -37,12 +41,6 @@ cursor: pointer;
             100% {
                 transform: rotate(0deg);
             }
-        }
-        #container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5in;
-            justify-content: center;
         }
         #cardinfo {
             display: none;
