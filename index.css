@@ -10,7 +10,7 @@ body {
             flex-wrap: wrap;
             gap: 0.5in;
             justify-content: center;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 p:not(#cardinfotext) {
 text-align: center;
