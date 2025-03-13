@@ -1,7 +1,7 @@
 const cardinfo = document.getElementById('cardinfo');
 const cardinfotext = document.getElementById('cardinfotext');
-const nameInputBox = document.getElementById('nameInput');
-const descInputBox = document.getElementById('descInput');
+const nameInputBox = document.getElementById('searchbyname');
+const descInputBox = document.getElementById('searchbydesc');
 let cards = [];
 
 let cardsJson = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
