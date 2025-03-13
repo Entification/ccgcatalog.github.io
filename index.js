@@ -32,7 +32,7 @@ function searchThroughCards() {
   let nameInput = nameInputBox.value;
   let descInput = descInputBox.value;
   cards.forEach(card => {
-		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase()) {
+		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase())) {
 			document.querySelector('#' + card).style.display = 'block';
 		} else {
 			document.querySelector('#' + card).style.display = 'none';
