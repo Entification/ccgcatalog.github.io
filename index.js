@@ -34,9 +34,9 @@ function searchForCards() {
   let descInput = document.getElementById('searchbydesc').value;
   cards.forEach(card => {
 		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase())) {
-			document.querySelector('#' + card).style.display = 'block';
+			document.getElementById(card).style.display = 'block';
 		} else {
-			document.querySelector('#' + card).style.display = 'none';
+			document.getElementById(card).style.display = 'none';
 		}
 	});
 }
