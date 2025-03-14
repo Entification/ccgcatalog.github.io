@@ -63,6 +63,17 @@ cursor: pointer;
             background-color: rgba(0, 0, 0, 0.8);
             padding: 5px;
         }
+        #close {
+          text-align: center;
+height: 50px;
+margin: 5px;
+width: 100%;
+          background-color: rgba(0, 0, 0, 0.8);
+          transform: translate(-50%, -50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
         input {
             height: 35px;
             width: 300px;
