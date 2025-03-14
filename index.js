@@ -29,7 +29,7 @@ fetchJSON();
 
 function load(loadID) {
   document.getElementById('cardinfo').style.display = 'block';
-  document.getElementById('cardinfotext').innerHTML = cardsParsed[loadID][2].replace("\n",'<br>').replace('\\n', '<br>');
+  document.getElementById('cardinfotext').innerHTML = cardsParsed[loadID][2].replaceAll("\n",'<br>').replaceAll('\\n', '<br>');
 }
 
 function searchForCards() {
