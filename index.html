@@ -7,8 +7,9 @@
   </head>
   <body>
     <p>Custom Card List <input id='searchbyname' oninput="searchForCards()" placeholder="Search card by name..."><input id='searchbydesc' oninput="searchForCards()" placeholder="Search card by description..."></p>
-    <div id="cardinfo" onclick="document.getElementById('cardinfo').style.display = 'none';">
-        <p id="cardinfotext" onclick="setTimeout(function() {document.getElementById('cardinfo').style.display = 'block';}, 0)"></p>
+    <div id="cardinfo">
+        <p id="cardinfotext"></p>
+        <p id="close">CLOSE</p>
     </div>
   </body>
 </html>
