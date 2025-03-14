@@ -12,7 +12,7 @@ body {
             justify-content: center;
   padding-bottom: 15px;
 }
-p:not(#cardinfotext) {
+p:not(#cardinfotext):not(#close) {
 text-align: center;
 height: 50px;
 margin: 5px;
@@ -56,13 +56,15 @@ cursor: pointer;
         #cardinfotext {
             transform: translate(-50%, -50%);
             position: absolute;
-            top: 80%;
+            top: 50%;
             left: 50%;
             font-size: 32px;
             user-select: text;
             background-color: rgba(0, 0, 0, 0.8);
             padding: 5px;
             overflow-y: scroll;
+            height: 50%
+            width: 50%
         }
         #close {
           text-align: center;
