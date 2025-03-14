@@ -72,6 +72,7 @@ cursor: pointer;
           width: 200px;
           background-color: rgba(0, 0, 0, 0.8);
             position: absolute;
+          cursor: pointer;
         }
         input {
             height: 35px;
