@@ -56,12 +56,13 @@ cursor: pointer;
         #cardinfotext {
             transform: translate(-50%, -50%);
             position: absolute;
-            top: 50%;
+            top: 80%;
             left: 50%;
             font-size: 32px;
             user-select: text;
             background-color: rgba(0, 0, 0, 0.8);
             padding: 5px;
+            overflow-y: scroll;
         }
         #close {
           text-align: center;
