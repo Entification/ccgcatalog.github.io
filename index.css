@@ -66,7 +66,7 @@ cursor: pointer;
         #close {
           text-align: center;
           height: 50px;
-          width: 100%;
+          width: 200px;
           background-color: rgba(0, 0, 0, 0.8);
             position: absolute;
         }
