@@ -20,7 +20,7 @@ function fetchJSON() {
 fetch("https://entification.github.io/ccgcatalog.github.io/cards.json")
   .then(response => response.json())
   .then(data => {console.log(data); cardsParsed = data; onParsed();})
-  .catch(error => setTimeout(fetchJSON, 100); console.error('Error:', error));
+  .catch(error => setTimeout(fetchJSON, 1000); console.error('Error:', error));
 }
 
 
