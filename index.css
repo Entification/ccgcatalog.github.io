@@ -62,7 +62,7 @@ cursor: pointer;
             user-select: text;
             background-color: rgba(0, 0, 0, 0.8);
             padding: 5px;
-            overflow-y: scroll;
+            overflow: auto;
             height: 50%
             width: 50%
         }
