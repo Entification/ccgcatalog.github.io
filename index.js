@@ -30,6 +30,7 @@ fetchJSON();
 function load(loadID) {
   document.getElementById('cardinfo').style.display = 'block';
   document.getElementById('cardinfotext').innerHTML = cardsParsed[loadID][2].replaceAll("\n",'<br>').replaceAll('\\n', '<br>');
+  document.getElementById("cardinfotext").scrollTop = 0;
 }
 
 function searchForCards() {
@@ -43,3 +44,8 @@ function searchForCards() {
 		}
 	});
 }
+
+document.getElementById('cardinfo').addEventListener('click', function(event) {
+    if (event.target.id === 'cardinfo') { document.querySelector('#cardinfo').style.display ='none'; }
+    else if(event.target.id === 'cardinfotext') { event.stopPropagation(); }
+});
