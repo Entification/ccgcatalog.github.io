@@ -13,6 +13,11 @@ function onParsed() {
 		card.onclick = function() { load(card.id); };
 		document.body.appendChild(card);
 	}
+
+	document.getElementById('cardinfo').addEventListener('click', function(event) {
+    		if (event.target.id === 'cardinfo') { document.getElement('cardinfo').style.display ='none'; }
+   		else if(event.target.id === 'cardinfotext') { event.stopPropagation(); }
+	});
 }
 
 let cardsParsed = ""; // {'cardName': ['cardName', 'cardImage', 'cardDesc']}  ==> 0=cardName, 1=cardImage, 2=cardDesc
@@ -44,8 +49,3 @@ function searchForCards() {
 		}
 	});
 }
-
-document.getElementById('cardinfo').addEventListener('click', function(event) {
-    if (event.target.id === 'cardinfo') { document.querySelector('#cardinfo').style.display ='none'; }
-    else if(event.target.id === 'cardinfotext') { event.stopPropagation(); }
-});
