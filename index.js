@@ -15,7 +15,7 @@ function onParsed() {
 	}
 
 	document.getElementById('cardinfo').addEventListener('click', function(event) {
-    		if (event.target.id === 'cardinfo') { document.getElement('cardinfo').style.display ='none'; }
+    		if (event.target.id === 'cardinfo') { document.getElementById('cardinfo').style.display ='none'; }
    		else if(event.target.id === 'cardinfotext') { event.stopPropagation(); }
 	});
 }
