@@ -38,11 +38,24 @@ function load(loadID) {
   document.getElementById("cardinfotext").scrollTop = 0;
 }
 
+function checkMetadataLineFor(cardId, metadataInfo) {
+	let descriptionFull = cardsParsed[cardId][2];
+	let lines = descriptionFull.split("\n");
+	let secondLine = lines.length >= 2 ? lines[1].toUpperCase() : "";
+	let searchInfo = metadataInfo.toUpperCase();
+	
+	return secondLine.includes(searchInfo);
+}
+
+
 function searchForCards() {
   let nameInput = document.getElementById('searchbyname').value;
   let descInput = document.getElementById('searchbydesc').value;
+	let cardType = document.getElementById(`searchbytype`).value;
+	let cardLevel = document.getElementById(`searchbylevel`).value;
+	let cardAttribute = document.getElementById(`searchbyattribute`).value;
   cards.forEach(card => {
-		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase())) {
+		if (card.toUpperCase().includes(nameInput.toUpperCase()) && cardsParsed[card][2].toUpperCase().includes(descInput.toUpperCase()) && checkMetadataLineFor(card, cardType) && checkMetadataLineFor(card, cardLevel) && checkMetadataLineFor(card, cardAttribute)) {
 			document.getElementById(card).style.display = 'block';
 		} else {
 			document.getElementById(card).style.display = 'none';
