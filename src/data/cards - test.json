@@ -1,0 +1,1561 @@
+[
+  {
+    "id": "CARD-0001",
+    "name": "Snark - The Elusive",
+    "image": "/assets/cards/Snark-The-Elusive.jpg",
+    "set": "CCG-01 Brave X",
+    "archetype": "Snark",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect",
+      "Pendulum"
+    ],
+    "monsterType": [
+      "Beast"
+    ],
+    "attribute": "EARTH",
+    "level": 4,
+    "scale": 2,
+    "atk": 1700,
+    "def": 1000,
+    "text": "When this card is excavated: Special Summon it.",
+    "keywords": [
+      "excavate",
+      "snark"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-08-01"
+    }
+  },
+  {
+    "id": "CARD-0002",
+    "name": "Boojum - The Dreaded",
+    "image": "/assets/cards/Boojum-The-Dreaded.jpg",
+    "set": "CCG-01 Brave X",
+    "archetype": "Snark",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Beast"
+    ],
+    "attribute": "DARK",
+    "level": 7,
+    "atk": 2600,
+    "def": 0,
+    "text": "If excavated: You can Special Summon this card.",
+    "legal": {
+      "semiLimited": false,
+      "limited": true,
+      "banned": false
+    }
+  },
+  {
+    "id": "CARD-0003",
+    "name": "Field of Whimsy",
+    "image": "/assets/cards/Field-of-Whimsy.jpg",
+    "set": "CCG-02 Celestial Cuisine",
+    "category": "Spell",
+    "icon": "Field",
+    "text": "All Snark monsters gain 300 ATK.",
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    }
+  },
+  {
+    "id": "CARD-0051",
+    "name": "FRUTEONIA",
+    "image": "https://i.imgur.com/obCTs3e.jpeg",
+    "set": "TATA-10 Tainted Tails",
+    "archetype": "Frute",
+    "category": "Spell",
+    "cardTypes": [
+      "Field"
+    ],
+    "text": "While you control a WATER Ritual Monster, your opponent cannot target \"Frute\" monsters you control with card effects. When a \"Frute\" monster is Tributed: You can add 1 \"Frute\" monster from your Deck to your hand with a different name from the Tributed monster. During your Main Phase: You can send 1 \"Frute\" card from your Deck to the GY, then, if it was a monster, you can Special Summon 1 \"Frute\" monster from your hand in face-down Defense Position. You can only use each effect of \"Fruteonia\" once per turn.",
+    "keywords": [
+      "frute",
+      "field spell",
+      "search"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0052",
+    "name": "FRUTE SACRIFICE",
+    "image": "https://i.imgur.com/5kYpL2j.jpeg",
+    "set": "TATA-10 Tainted Tails",
+    "archetype": "Frute",
+    "category": "Spell",
+    "cardTypes": [
+      "Quick-Play"
+    ],
+    "text": "Tribute 1 \"Frute\" monster; Special Summon 1 \"Frute\" monster from your Deck with a different name in face-up or face-down Defense Position. If a \"Frute\" monster you control is Tributed while this card is in your GY: You can banish this card; draw 1 card, then, if you Tributed a monster in face-down Defense Position, you can draw 1 additional card. You can only use each effect of \"Frute Sacrifice\" once per turn.",
+    "keywords": [
+      "frute",
+      "special summon",
+      "draw"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0053",
+    "name": "FRUTE RITUAL",
+    "image": "https://i.imgur.com/7mQwZ9r.jpeg",
+    "set": "TATA-10 Tainted Tails",
+    "archetype": "Frute",
+    "category": "Spell",
+    "cardTypes": [
+      "Ritual"
+    ],
+    "text": "This card can be used to Ritual Summon any \"Frute\" Ritual Monster. You must also Tribute monsters from your hand or field, and/or send \"Frute\" monsters from your Deck to the GY, whose total Levels equal or exceed the Level of the Ritual Monster you Ritual Summon. If you control no monsters, or only control \"Frute\" monsters, you can also use monsters in face-down Defense Position on your field as Tributes.",
+    "keywords": [
+      "frute",
+      "ritual",
+      "summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0054",
+    "name": "FRUTE CYCLE",
+    "image": "https://i.imgur.com/9nRtX4f.jpeg",
+    "set": "TATA-10 Tainted Tails",
+    "archetype": "Frute",
+    "category": "Trap",
+    "cardTypes": [
+      "Continuous"
+    ],
+    "text": "When a \"Frute\" monster is Tributed: You can target 1 card on the field; return it to the hand. If a \"Frute\" monster you control in face-down Defense Position is Tributed: You can target 1 additional card on the field; return it to the hand. You can banish this card from your GY; Set 1 \"Frute\" Spell/Trap from your GY, except \"Frute Cycle\". You can only use each effect of \"Frute Cycle\" once per turn.",
+    "keywords": [
+      "frute",
+      "return to hand",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0055",
+    "name": "THE PURPLE FRUTE",
+    "image": "https://i.imgur.com/2xWpH6k.jpeg",
+    "set": "TATA-10 Tainted Tails",
+    "archetype": "Frute",
+    "category": "Monster",
+    "cardTypes": [
+      "Ritual",
+      "Effect"
+    ],
+    "monsterType": [
+      "Spellcaster"
+    ],
+    "attribute": "WATER",
+    "level": 8,
+    "atk": 2800,
+    "def": 2000,
+    "text": "You can Ritual Summon this card with any \"Frute\" Ritual Spell. If this card is Ritual Summoned: You can target up to 2 cards your opponent controls; return them to the hand. If this card is Tributed: You can Special Summon 1 \"Frute\" monster from your GY or banishment in face-down Defense Position, except \"The Purple Frute\". You can only use each effect of \"The Purple Frute\" once per turn.",
+    "keywords": [
+      "frute",
+      "ritual",
+      "return to hand"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0056",
+    "name": "THE BLACK FRUTE",
+    "image": "https://i.imgur.com/4tYjK8m.jpeg",
+    "set": "TATA-10 Tainted Tails",
+    "archetype": "Frute",
+    "category": "Monster",
+    "cardTypes": [
+      "Ritual",
+      "Effect"
+    ],
+    "monsterType": [
+      "Spellcaster"
+    ],
+    "attribute": "WATER",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "text": "You can Ritual Summon this card with any \"Frute\" Ritual Spell. If this card is Ritual Summoned: You can shuffle up to 3 cards from your opponent's GY or field into their Deck. If a \"Frute\" monster you control is Tributed while this card is in your GY: You can Special Summon this card in face-down Defense Position, but banish it when it leaves the field. You can only use each effect of \"The Black Frute\" once per turn.",
+    "keywords": [
+      "frute",
+      "ritual",
+      "shuffle"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0057",
+    "name": "CHRONOGLYPH KEEPER",
+    "image": "https://i.imgur.com/6uQwR9t.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Psychic"
+    ],
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1600,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Chronoglyph\" Spell/Trap from your Deck to your hand. During your Main Phase: You can banish this card from your GY; Special Summon 1 \"Chronoglyph\" monster from your Deck, but it cannot attack this turn. You can only use each effect of \"Chronoglyph Keeper\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0058",
+    "name": "CHRONOGLYPH SCRIBE",
+    "image": "https://i.imgur.com/8vXtL3m.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Psychic"
+    ],
+    "attribute": "LIGHT",
+    "level": 3,
+    "atk": 1200,
+    "def": 1800,
+    "text": "If a \"Chronoglyph\" card is activated: You can Special Summon this card from your hand. If this card is sent to the GY: You can target 1 \"Chronoglyph\" card in your GY, except \"Chronoglyph Scribe\"; add it to your hand. You can only use each effect of \"Chronoglyph Scribe\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0059",
+    "name": "CHRONOGLYPH ORACLE",
+    "image": "https://i.imgur.com/0pRwM5n.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Psychic"
+    ],
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "text": "If you control a \"Chronoglyph\" card, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned: You can excavate the top 3 cards of your Deck, add 1 excavated \"Chronoglyph\" card to your hand, and shuffle the rest into the Deck. You can only use each effect of \"Chronoglyph Oracle\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "special summon",
+      "excavate"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0060",
+    "name": "CHRONOGLYPH INSCRIPTION",
+    "image": "https://i.imgur.com/2yQtN7r.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Spell",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "Add 1 \"Chronoglyph\" card from your Deck to your hand, except \"Chronoglyph Inscription\". If a \"Chronoglyph\" monster you control is destroyed by battle or card effect while this card is in your GY: You can banish this card; Special Summon 1 \"Chronoglyph\" monster from your GY. You can only use each effect of \"Chronoglyph Inscription\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0061",
+    "name": "CHRONOGLYPH REWRITE",
+    "image": "https://i.imgur.com/4uRwP9t.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Spell",
+    "cardTypes": [
+      "Quick-Play"
+    ],
+    "text": "Target 1 \"Chronoglyph\" monster you control; this turn, it cannot be destroyed by battle or card effects, also, if it battles an opponent's monster, banish that monster after damage calculation. If this card is in your GY: You can banish it, then target 1 \"Chronoglyph\" card in your GY; add it to your hand. You can only use each effect of \"Chronoglyph Rewrite\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "protection",
+      "banish"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0062",
+    "name": "CHRONOGLYPH TEMPORAL SEAL",
+    "image": "https://i.imgur.com/6tYwQ0r.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect: Negate the activation, and if you do, banish that card. If you control a \"Chronoglyph\" monster, you can activate this card from your hand. If this card is in your GY: You can banish it; add 1 \"Chronoglyph\" monster from your Deck to your hand. You can only use each effect of \"Chronoglyph Temporal Seal\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "negate",
+      "search"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0063",
+    "name": "CHRONOGLYPH GUARDIAN",
+    "image": "https://i.imgur.com/8xRtM5n.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Monster",
+    "cardTypes": [
+      "Synchro",
+      "Effect"
+    ],
+    "monsterType": [
+      "Psychic"
+    ],
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "text": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Synchro Summoned: You can target 1 card on the field; banish it. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can add 1 \"Chronoglyph\" card from your GY to your hand. You can only use this effect of \"Chronoglyph Guardian\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "synchro",
+      "banish"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0064",
+    "name": "CHRONOGLYPH TIMEWEAVER",
+    "image": "https://i.imgur.com/0qRwN7t.jpeg",
+    "set": "TATA-11 Tainted Tails",
+    "archetype": "Chronoglyph",
+    "category": "Monster",
+    "cardTypes": [
+      "Synchro",
+      "Effect"
+    ],
+    "monsterType": [
+      "Psychic"
+    ],
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2800,
+    "def": 2200,
+    "text": "1 Tuner + 1+ non-Tuner \"Chronoglyph\" monsters\nWhen this card is Synchro Summoned: You can shuffle up to 2 cards from your opponent's GY or field into their Deck. Once per turn (Quick Effect): You can target 1 face-up card on the field; its effects are negated until the end of this turn. If this card is sent to the GY: You can Special Summon 1 \"Chronoglyph\" monster from your GY, except \"Chronoglyph Timeweaver\". You can only use this effect of \"Chronoglyph Timeweaver\" once per turn.",
+    "keywords": [
+      "chronoglyph",
+      "synchro",
+      "negate"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0065",
+    "name": "VORTEXWIND DRAGON",
+    "image": "https://i.imgur.com/2tYwQ9r.jpeg",
+    "set": "TATA-12 Tainted Tails",
+    "archetype": "Vortexwind",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Dragon"
+    ],
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 1800,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Vortexwind\" card from your Deck to your hand, except \"Vortexwind Dragon\". If this card is sent to the GY by a card effect: You can Special Summon 1 \"Vortexwind\" monster from your GY, except \"Vortexwind Dragon\". You can only use each effect of \"Vortexwind Dragon\" once per turn.",
+    "keywords": [
+      "vortexwind",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0066",
+    "name": "VORTEXWIND WYRM",
+    "image": "https://i.imgur.com/4vRtN9t.jpeg",
+    "set": "TATA-12 Tainted Tails",
+    "archetype": "Vortexwind",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Dragon"
+    ],
+    "attribute": "WIND",
+    "level": 3,
+    "atk": 1400,
+    "def": 1000,
+    "text": "If you control a \"Vortexwind\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Vortexwind\" card in your GY, except \"Vortexwind Wyrm\"; add it to your hand. You can only use each effect of \"Vortexwind Wyrm\" once per turn.",
+    "keywords": [
+      "vortexwind",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0067",
+    "name": "VORTEXWIND GUST",
+    "image": "https://i.imgur.com/6xQwR0t.jpeg",
+    "set": "TATA-12 Tainted Tails",
+    "archetype": "Vortexwind",
+    "category": "Spell",
+    "cardTypes": [
+      "Quick-Play"
+    ],
+    "text": "Target 1 \"Vortexwind\" monster you control; this turn, it gains 500 ATK and can attack all monsters your opponent controls, once each. If this card is in your GY: You can banish it, then target 1 \"Vortexwind\" monster in your GY; Special Summon it. You can only use each effect of \"Vortexwind Gust\" once per turn.",
+    "keywords": [
+      "vortexwind",
+      "atk boost",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0068",
+    "name": "VORTEXWIND STORM",
+    "image": "https://i.imgur.com/8yRtM7n.jpeg",
+    "set": "TATA-12 Tainted Tails",
+    "archetype": "Vortexwind",
+    "category": "Spell",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "Add 1 \"Vortexwind\" card from your Deck to your hand, except \"Vortexwind Storm\". If a \"Vortexwind\" monster you control is destroyed by battle or card effect while this card is in your GY: You can banish this card; Special Summon 1 \"Vortexwind\" monster from your Deck. You can only use each effect of \"Vortexwind Storm\" once per turn.",
+    "keywords": [
+      "vortexwind",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0069",
+    "name": "VORTEXWIND TWISTER",
+    "image": "https://i.imgur.com/0tQwN9r.jpeg",
+    "set": "TATA-12 Tainted Tails",
+    "archetype": "Vortexwind",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect while you control a \"Vortexwind\" monster: Negate the activation, and if you do, destroy that card. If this card is in your GY: You can banish it; add 1 \"Vortexwind\" card from your GY to your hand, except \"Vortexwind Twister\". You can only use each effect of \"Vortexwind Twister\" once per turn.",
+    "keywords": [
+      "vortexwind",
+      "negate",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0070",
+    "name": "VORTEXWIND TEMPEST DRAGON",
+    "image": "https://i.imgur.com/2yQwR1t.jpeg",
+    "set": "TATA-12 Tainted Tails",
+    "archetype": "Vortexwind",
+    "category": "Monster",
+    "cardTypes": [
+      "Xyz",
+      "Effect"
+    ],
+    "monsterType": [
+      "Dragon"
+    ],
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 2500,
+    "def": 2000,
+    "text": "2 Level 4 \"Vortexwind\" monsters\nOnce per turn (Quick Effect): You can detach 1 material from this card; return 1 card on the field to the hand. If this card is sent to the GY: You can Special Summon 1 \"Vortexwind\" monster from your GY, except \"Vortexwind Tempest Dragon\". You can only use this effect of \"Vortexwind Tempest Dragon\" once per turn.",
+    "keywords": [
+      "vortexwind",
+      "xyz",
+      "return to hand"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0071",
+    "name": "SHADOWVEIL ASSASSIN",
+    "image": "https://i.imgur.com/4uQwN0t.jpeg",
+    "set": "TATA-13 Tainted Tails",
+    "archetype": "Shadowveil",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Warrior"
+    ],
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1700,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Shadowveil\" card from your Deck to your hand, except \"Shadowveil Assassin\". If this card is sent to the GY by a card effect: You can target 1 card on the field; destroy it. You can only use each effect of \"Shadowveil Assassin\" once per turn.",
+    "keywords": [
+      "shadowveil",
+      "search",
+      "destroy"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0072",
+    "name": "SHADOWVEIL ROGUE",
+    "image": "https://i.imgur.com/6yRtM2n.jpeg",
+    "set": "TATA-13 Tainted Tails",
+    "archetype": "Shadowveil",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Warrior"
+    ],
+    "attribute": "DARK",
+    "level": 3,
+    "atk": 1300,
+    "def": 1000,
+    "text": "If you control a \"Shadowveil\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Shadowveil\" card in your GY, except \"Shadowveil Rogue\"; add it to your hand. You can only use each effect of \"Shadowveil Rogue\" once per turn.",
+    "keywords": [
+      "shadowveil",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0073",
+    "name": "SHADOWVEIL CLOAK",
+    "image": "https://i.imgur.com/8tQwN3t.jpeg",
+    "set": "TATA-13 Tainted Tails",
+    "archetype": "Shadowveil",
+    "category": "Spell",
+    "cardTypes": [
+      "Equip"
+    ],
+    "text": "Equip only to a \"Shadowveil\" monster. It cannot be targeted by your opponent's card effects. If the equipped monster destroys an opponent's monster by battle: You can add 1 \"Shadowveil\" card from your Deck to your hand. You can only use this effect of \"Shadowveil Cloak\" once per turn.",
+    "keywords": [
+      "shadowveil",
+      "protection",
+      "search"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0074",
+    "name": "SHADOWVEIL AMBUSH",
+    "image": "https://i.imgur.com/0uRtM4n.jpeg",
+    "set": "TATA-13 Tainted Tails",
+    "archetype": "Shadowveil",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent declares an attack while you control a \"Shadowveil\" monster: Negate the attack, then you can Special Summon 1 \"Shadowveil\" monster from your Deck. If this card is in your GY: You can banish it; add 1 \"Shadowveil\" card from your GY to your hand, except \"Shadowveil Ambush\". You can only use each effect of \"Shadowveil Ambush\" once per turn.",
+    "keywords": [
+      "shadowveil",
+      "negate",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0075",
+    "name": "SHADOWVEIL PHANTOM",
+    "image": "https://i.imgur.com/2xQwN5t.jpeg",
+    "set": "TATA-13 Tainted Tails",
+    "archetype": "Shadowveil",
+    "category": "Monster",
+    "cardTypes": [
+      "Link",
+      "Effect"
+    ],
+    "monsterType": [
+      "Warrior"
+    ],
+    "attribute": "DARK",
+    "level": 2,
+    "atk": 2000,
+    "text": "2 \"Shadowveil\" monsters\nIf this card is Link Summoned: You can target 1 card on the field; destroy it. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can Special Summon 1 \"Shadowveil\" monster from your GY. You can only use this effect of \"Shadowveil Phantom\" once per turn.",
+    "keywords": [
+      "shadowveil",
+      "link",
+      "destroy"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0076",
+    "name": "AURABLADE SQUIRE",
+    "image": "https://i.imgur.com/4yRtM6n.jpeg",
+    "set": "TATA-14 Tainted Tails",
+    "archetype": "Aurablade",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Warrior"
+    ],
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1600,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Aurablade\" card from your Deck to your hand, except \"Aurablade Squire\". If this card is sent to the GY by a card effect: You can Special Summon 1 \"Aurablade\" monster from your GY, except \"Aurablade Squire\". You can only use each effect of \"Aurablade Squire\" once per turn.",
+    "keywords": [
+      "aurablade",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0077",
+    "name": "AURABLADE KNIGHT",
+    "image": "https://i.imgur.com/6uQwN7t.jpeg",
+    "set": "TATA-14 Tainted Tails",
+    "archetype": "Aurablade",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Warrior"
+    ],
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "text": "If you control an \"Aurablade\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Aurablade\" card in your GY, except \"Aurablade Knight\"; add it to your hand. You can only use each effect of \"Aurablade Knight\" once per turn.",
+    "keywords": [
+      "aurablade",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0078",
+    "name": "AURABLADE SHINE",
+    "image": "https://i.imgur.com/8xRtN8t.jpeg",
+    "set": "TATA-14 Tainted Tails",
+    "archetype": "Aurablade",
+    "category": "Spell",
+    "cardTypes": [
+      "Quick-Play"
+    ],
+    "text": "Target 1 \"Aurablade\" monster you control; this turn, it gains 500 ATK and cannot be destroyed by battle. If this card is in your GY: You can banish it, then target 1 \"Aurablade\" monster in your GY; Special Summon it. You can only use each effect of \"Aurablade Shine\" once per turn.",
+    "keywords": [
+      "aurablade",
+      "atk boost",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0079",
+    "name": "AURABLADE STRIKE",
+    "image": "https://i.imgur.com/0yQwN9t.jpeg",
+    "set": "TATA-14 Tainted Tails",
+    "archetype": "Aurablade",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect while you control an \"Aurablade\" monster: Negate the activation, and if you do, destroy that card. If this card is in your GY: You can banish it; add 1 \"Aurablade\" card from your GY to your hand, except \"Aurablade Strike\". You can only use each effect of \"Aurablade Strike\" once per turn.",
+    "keywords": [
+      "aurablade",
+      "negate",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0080",
+    "name": "AURABLADE PALADIN",
+    "image": "https://i.imgur.com/2tRtM0n.jpeg",
+    "set": "TATA-14 Tainted Tails",
+    "archetype": "Aurablade",
+    "category": "Monster",
+    "cardTypes": [
+      "Fusion",
+      "Effect"
+    ],
+    "monsterType": [
+      "Warrior"
+    ],
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "text": "2 \"Aurablade\" monsters\nIf this card is Fusion Summoned: You can target 1 card on the field; destroy it. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can Special Summon 1 \"Aurablade\" monster from your GY, except \"Aurablade Paladin\". You can only use this effect of \"Aurablade Paladin\" once per turn.",
+    "keywords": [
+      "aurablade",
+      "fusion",
+      "destroy"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0081",
+    "name": "FROSTBITE WOLF",
+    "image": "https://i.imgur.com/4yQwN1t.jpeg",
+    "set": "TATA-15 Tainted Tails",
+    "archetype": "Frostbite",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Beast"
+    ],
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1800,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Frostbite\" card from your Deck to your hand, except \"Frostbite Wolf\". If this card is sent to the GY by a card effect: You can target 1 card on the field; return it to the hand. You can only use each effect of \"Frostbite Wolf\" once per turn.",
+    "keywords": [
+      "frostbite",
+      "search",
+      "return to hand"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0082",
+    "name": "FROSTBITE BEAR",
+    "image": "https://i.imgur.com/6tRtM2n.jpeg",
+    "set": "TATA-15 Tainted Tails",
+    "archetype": "Frostbite",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Beast"
+    ],
+    "attribute": "WATER",
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "text": "If you control a \"Frostbite\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Frostbite\" card in your GY, except \"Frostbite Bear\"; add it to your hand. You can only use each effect of \"Frostbite Bear\" once per turn.",
+    "keywords": [
+      "frostbite",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0083",
+    "name": "FROSTBITE CHILL",
+    "image": "https://i.imgur.com/8yQwN3t.jpeg",
+    "set": "TATA-15 Tainted Tails",
+    "archetype": "Frostbite",
+    "category": "Spell",
+    "cardTypes": [
+      "Quick-Play"
+    ],
+    "text": "Target 1 \"Frostbite\" monster you control; this turn, it gains 500 ATK and can attack all monsters your opponent controls, once each. If this card is in your GY: You can banish it, then target 1 \"Frostbite\" monster in your GY; Special Summon it. You can only use each effect of \"Frostbite Chill\" once per turn.",
+    "keywords": [
+      "frostbite",
+      "atk boost",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0084",
+    "name": "FROSTBITE FREEZE",
+    "image": "https://i.imgur.com/0tRtM4n.jpeg",
+    "set": "TATA-15 Tainted Tails",
+    "archetype": "Frostbite",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect while you control a \"Frostbite\" monster: Negate the activation, and if you do, destroy that card. If this card is in your GY: You can banish it; add 1 \"Frostbite\" card from your GY to your hand, except \"Frostbite Freeze\". You can only use each effect of \"Frostbite Freeze\" once per turn.",
+    "keywords": [
+      "frostbite",
+      "negate",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0085",
+    "name": "FROSTBITE ALPHA",
+    "image": "https://i.imgur.com/2yQwN5t.jpeg",
+    "set": "TATA-15 Tainted Tails",
+    "archetype": "Frostbite",
+    "category": "Monster",
+    "cardTypes": [
+      "Synchro",
+      "Effect"
+    ],
+    "monsterType": [
+      "Beast"
+    ],
+    "attribute": "WATER",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "text": "1 Tuner + 1+ non-Tuner \"Frostbite\" monsters\nIf this card is Synchro Summoned: You can target 1 card on the field; return it to the hand. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can Special Summon 1 \"Frostbite\" monster from your GY, except \"Frostbite Alpha\". You can only use this effect of \"Frostbite Alpha\" once per turn.",
+    "keywords": [
+      "frostbite",
+      "synchro",
+      "return to hand"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0086",
+    "name": "STARFORGE SMITH",
+    "image": "https://i.imgur.com/4tQwN6t.jpeg",
+    "set": "TATA-16 Tainted Tails",
+    "archetype": "Starforge",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Machine"
+    ],
+    "attribute": "FIRE",
+    "level": 4,
+    "atk": 1600,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Starforge\" card from your Deck to your hand, except \"Starforge Smith\". If this card is sent to the GY by a card effect: You can Special Summon 1 \"Starforge\" monster from your GY, except \"Starforge Smith\". You can only use each effect of \"Starforge Smith\" once per turn.",
+    "keywords": [
+      "starforge",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0087",
+    "name": "STARFORGE CRAFTSMAN",
+    "image": "https://i.imgur.com/6yRtN7t.jpeg",
+    "set": "TATA-16 Tainted Tails",
+    "archetype": "Starforge",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Machine"
+    ],
+    "attribute": "FIRE",
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "text": "If you control a \"Starforge\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Starforge\" card in your GY, except \"Starforge Craftsman\"; add it to your hand. You can only use each effect of \"Starforge Craftsman\" once per turn.",
+    "keywords": [
+      "starforge",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0088",
+    "name": "STARFORGE FURNACE",
+    "image": "https://i.imgur.com/8tRtM8n.jpeg",
+    "set": "TATA-16 Tainted Tails",
+    "archetype": "Starforge",
+    "category": "Spell",
+    "cardTypes": [
+      "Continuous"
+    ],
+    "text": "\"Starforge\" monsters you control gain 500 ATK. If a \"Starforge\" monster you control is destroyed by battle or card effect: You can add 1 \"Starforge\" card from your Deck to your hand. You can only use this effect of \"Starforge Furnace\" once per turn.",
+    "keywords": [
+      "starforge",
+      "atk boost",
+      "search"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0089",
+    "name": "STARFORGE BLAZE",
+    "image": "https://i.imgur.com/0yQwN0t.jpeg",
+    "set": "TATA-16 Tainted Tails",
+    "archetype": "Starforge",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect while you control a \"Starforge\" monster: Negate the activation, and if you do, destroy that card. If this card is in your GY: You can banish it; add 1 \"Starforge\" card from your GY to your hand, except \"Starforge Blaze\". You can only use each effect of \"Starforge Blaze\" once per turn.",
+    "keywords": [
+      "starforge",
+      "negate",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0090",
+    "name": "STARFORGE GOLIATH",
+    "image": "https://i.imgur.com/2tRtN1t.jpeg",
+    "set": "TATA-16 Tainted Tails",
+    "archetype": "Starforge",
+    "category": "Monster",
+    "cardTypes": [
+      "Fusion",
+      "Effect"
+    ],
+    "monsterType": [
+      "Machine"
+    ],
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 2800,
+    "def": 2200,
+    "text": "2 \"Starforge\" monsters\nIf this card is Fusion Summoned: You can target 1 card on the field; destroy it. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can Special Summon 1 \"Starforge\" monster from your GY, except \"Starforge Goliath\". You can only use this effect of \"Starforge Goliath\" once per turn.",
+    "keywords": [
+      "starforge",
+      "fusion",
+      "destroy"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0091",
+    "name": "THORNWISP ELF",
+    "image": "https://i.imgur.com/4yQwN2t.jpeg",
+    "set": "TATA-17 Tainted Tails",
+    "archetype": "Thornwisp",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Plant"
+    ],
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 1200,
+    "def": 1800,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Thornwisp\" card from your Deck to your hand, except \"Thornwisp Elf\". If this card is sent to the GY by a card effect: You can Special Summon 1 \"Thornwisp\" monster from your GY, except \"Thornwisp Elf\". You can only use each effect of \"Thornwisp Elf\" once per turn.",
+    "keywords": [
+      "thornwisp",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0092",
+    "name": "THORNWISP SPRITE",
+    "image": "https://i.imgur.com/6tRtN3t.jpeg",
+    "set": "TATA-17 Tainted Tails",
+    "archetype": "Thornwisp",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Plant"
+    ],
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 1600,
+    "def": 1200,
+    "text": "If you control a \"Thornwisp\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Thornwisp\" card in your GY, except \"Thornwisp Sprite\"; add it to your hand. You can only use each effect of \"Thornwisp Sprite\" once per turn.",
+    "keywords": [
+      "thornwisp",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0093",
+    "name": "THORNWISP GROVE",
+    "image": "https://i.imgur.com/8yQwN4t.jpeg",
+    "set": "TATA-17 Tainted Tails",
+    "archetype": "Thornwisp",
+    "category": "Spell",
+    "cardTypes": [
+      "Field"
+    ],
+    "text": "\"Thornwisp\" monsters you control gain 500 ATK/DEF. If a \"Thornwisp\" monster you control is destroyed by battle or card effect: You can add 1 \"Thornwisp\" card from your Deck to your hand. You can only use this effect of \"Thornwisp Grove\" once per turn.",
+    "keywords": [
+      "thornwisp",
+      "atk boost",
+      "search"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0094",
+    "name": "THORNWISP ENTANGLE",
+    "image": "https://i.imgur.com/0tRtN5t.jpeg",
+    "set": "TATA-17 Tainted Tails",
+    "archetype": "Thornwisp",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect while you control a \"Thornwisp\" monster: Negate the activation, and if you do, destroy that card. If this card is in your GY: You can banish it; add 1 \"Thornwisp\" card from your GY to your hand, except \"Thornwisp Entangle\". You can only use each effect of \"Thornwisp Entangle\" once per turn.",
+    "keywords": [
+      "thornwisp",
+      "negate",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0095",
+    "name": "THORNWISP GUARDIAN",
+    "image": "https://i.imgur.com/2yQwN6t.jpeg",
+    "set": "TATA-17 Tainted Tails",
+    "archetype": "Thornwisp",
+    "category": "Monster",
+    "cardTypes": [
+      "Synchro",
+      "Effect"
+    ],
+    "monsterType": [
+      "Plant"
+    ],
+    "attribute": "EARTH",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "text": "1 Tuner + 1+ non-Tuner \"Thornwisp\" monsters\nIf this card is Synchro Summoned: You can target 1 card on the field; destroy it. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can Special Summon 1 \"Thornwisp\" monster from your GY, except \"Thornwisp Guardian\". You can only use this effect of \"Thornwisp Guardian\" once per turn.",
+    "keywords": [
+      "thornwisp",
+      "synchro",
+      "destroy"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0096",
+    "name": "DUSKSHROUD MAGE",
+    "image": "https://i.imgur.com/4tQwN7t.jpeg",
+    "set": "TATA-18 Tainted Tails",
+    "archetype": "Duskshroud",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Spellcaster"
+    ],
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1600,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Duskshroud\" card from your Deck to your hand, except \"Duskshroud Mage\". If this card is sent to the GY by a card effect: You can Special Summon 1 \"Duskshroud\" monster from your GY, except \"Duskshroud Mage\". You can only use each effect of \"Duskshroud Mage\" once per turn.",
+    "keywords": [
+      "duskshroud",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0097",
+    "name": "DUSKSHROUD SORCERER",
+    "image": "https://i.imgur.com/6yRtN8t.jpeg",
+    "set": "TATA-18 Tainted Tails",
+    "archetype": "Duskshroud",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Spellcaster"
+    ],
+    "attribute": "DARK",
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "text": "If you control a \"Duskshroud\" card, you can Special Summon this card (from your hand). If this card is sent to the GY: You can target 1 \"Duskshroud\" card in your GY, except \"Duskshroud Sorcerer\"; add it to your hand. You can only use each effect of \"Duskshroud Sorcerer\" once per turn.",
+    "keywords": [
+      "duskshroud",
+      "special summon",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0098",
+    "name": "DUSKSHROUD VEIL",
+    "image": "https://i.imgur.com/8tQwN9t.jpeg",
+    "set": "TATA-18 Tainted Tails",
+    "archetype": "Duskshroud",
+    "category": "Spell",
+    "cardTypes": [
+      "Continuous"
+    ],
+    "text": "\"Duskshroud\" monsters you control gain 500 ATK. If a \"Duskshroud\" monster you control is destroyed by battle or card effect: You can add 1 \"Duskshroud\" card from your Deck to your hand. You can only use this effect of \"Duskshroud Veil\" once per turn.",
+    "keywords": [
+      "duskshroud",
+      "atk boost",
+      "search"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0099",
+    "name": "DUSKSHROUD CURSE",
+    "image": "https://i.imgur.com/0yRtN0t.jpeg",
+    "set": "TATA-18 Tainted Tails",
+    "archetype": "Duskshroud",
+    "category": "Trap",
+    "cardTypes": [
+      "Normal"
+    ],
+    "text": "When your opponent activates a card or effect while you control a \"Duskshroud\" monster: Negate the activation, and if you do, destroy that card. If this card is in your GY: You can banish it; add 1 \"Duskshroud\" card from your GY to your hand, except \"Duskshroud Curse\". You can only use each effect of \"Duskshroud Curse\" once per turn.",
+    "keywords": [
+      "duskshroud",
+      "negate",
+      "recovery"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0100",
+    "name": "DUSKSHROUD ARCHMAGE",
+    "image": "https://i.imgur.com/2tQwN7t.jpeg",
+    "set": "TATA-18 Tainted Tails",
+    "archetype": "Duskshroud",
+    "category": "Monster",
+    "cardTypes": [
+      "Fusion",
+      "Effect"
+    ],
+    "monsterType": [
+      "Spellcaster"
+    ],
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2800,
+    "def": 2200,
+    "text": "2 \"Duskshroud\" monsters\nIf this card is Fusion Summoned: You can target 1 card on the field; destroy it. Once per turn (Quick Effect): You can discard 1 card; this card cannot be destroyed by battle or card effects until the end of the next turn. If this card is sent to the GY: You can Special Summon 1 \"Duskshroud\" monster from your GY, except \"Duskshroud Archmage\". You can only use this effect of \"Duskshroud Archmage\" once per turn.",
+    "keywords": [
+      "duskshroud",
+      "fusion",
+      "destroy"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  },
+  {
+    "id": "CARD-0101",
+    "name": "VOIDSPARK ELEMENTAL",
+    "image": "https://i.imgur.com/4yRtN9t.jpeg",
+    "set": "TATA-19 Tainted Tails",
+    "archetype": "Voidspark",
+    "category": "Monster",
+    "cardTypes": [
+      "Effect"
+    ],
+    "monsterType": [
+      "Thunder"
+    ],
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1800,
+    "def": 1200,
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Voidspark\" card from your Deck to your hand, except \"Voidspark Elemental\". If this card is sent to the GY by a card effect: You can Special Summon 1 \"Voidspark\" monster from your GY, except \"Voidspark Elemental\". You can only use each effect of \"Voidspark Elemental\" once per turn.",
+    "keywords": [
+      "voidspark",
+      "search",
+      "special summon"
+    ],
+    "legal": {
+      "semiLimited": false,
+      "limited": false,
+      "banned": false
+    },
+    "timestamps": {
+      "added": "2025-01-17"
+    }
+  }
+]

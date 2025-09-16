@@ -1,0 +1,23 @@
+[
+{
+    "code": "DOTE",
+    "name": "Dawn of the Elements",
+    "releaseDate": "2025-07-22",
+    "description": "Make waves and ignite the meta with the Yu-Gi-Oh! TRADING CARD GAME core booster set, Dawn of the Elements, bursting with dynamic new archetypes like Aquamarine, Chrono, Phlogiston, and more!",
+    "coverImage": "/assets/sets/Dawn_of_the_Elements.jpg"
+  },
+  {
+    "code": "CMOG",
+    "name": "Cosmic Origins",
+    "releaseDate": "2025-05-01",
+    "description": "Jump into the epic clash for the galaxy with the Yu-Gi-Oh! CCG core booster set, Cosmic Origins, packed with powerful support cards, standout singles, and the thrilling dawn of the Eldora Saga!",
+    "coverImage": "/assets/sets/Cosmic_Origins.jpg"
+  },
+  {
+    "code": "TATA",
+    "name": "Tainted Tales",
+    "releaseDate": "2025-01-17",
+    "description": "Unleash a saga of cosmic chaos and strategic mastery with the Yu-Gi-Oh! CCG core booster set, Tainted Tales, where archetypes like Stain and Stellaer rewrite the battlefield",
+    "coverImage": "/assets/sets/Tainted_Tales_Aldrez.jpg"
+  }
+]
