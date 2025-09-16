@@ -8,18 +8,21 @@ import Releases from './pages/Releases'
 import Cards from './pages/Cards'
 import BanList from './pages/BanList'
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: 'releases', element: <Releases /> },
-      { path: 'cards', element: <Cards /> },
-      { path: 'banlist', element: <BanList /> },
-    ],
-  },
-])
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: 'releases', element: <Releases /> },
+        { path: 'cards', element: <Cards /> },
+        { path: 'banlist', element: <BanList /> },
+      ],
+    },
+  ],
+  { basename: import.meta.env.BASE_URL } // 👈 key line
+)
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

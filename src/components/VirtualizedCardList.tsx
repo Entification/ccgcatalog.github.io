@@ -1,4 +1,4 @@
-import { FixedSizeList as List, ListChildComponentProps } from 'react-window'
+import { FixedSizeList as List, type ListChildComponentProps } from 'react-window'
 import { useEffect, useRef, useState } from 'react'
 import type { Card } from '../types/card'
 import CardRow from './CardRow'
@@ -14,7 +14,6 @@ export default function VirtualizedCardList({ items }: { items: Card[] }) {
     return () => window.removeEventListener('resize', onResize)
   }, [])
 
-  // Sizing: image 96w * 1.459h ≈ 140h + paddings → row ~164–176
   const rowHeight = 176
   const rowGap = 12
 
@@ -29,12 +28,7 @@ export default function VirtualizedCardList({ items }: { items: Card[] }) {
 
   return (
     <div ref={containerRef} className="w-full">
-      <List
-        height={800}
-        itemCount={items.length}
-        itemSize={rowHeight}
-        width={width}
-      >
+      <List height={800} itemCount={items.length} itemSize={rowHeight} width={width}>
         {Row}
       </List>
     </div>

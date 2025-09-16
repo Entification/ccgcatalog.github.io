@@ -2,7 +2,7 @@ import * as React from "react";
 import useCards from "./useCards";
 
 export default function useBanlistCards() {
-  const { cards: custom, loading: loadingCustom, error: customError } = useCards();
+  const { cards: custom, loading: loadingCustom } = useCards();
   const [tcg, setTcg] = React.useState<any[]>([]);
   const [loadingTcg, setLoadingTcg] = React.useState(true);
   const [tcgError, setTcgError] = React.useState<Error | null>(null);
@@ -32,9 +32,5 @@ export default function useBanlistCards() {
     return Array.from(map.values());
   }, [custom, tcg]);
 
-  return {
-    cards,
-    loading: loadingCustom || loadingTcg,
-    error: customError || tcgError
-  };
+  return { cards, loading: loadingCustom || loadingTcg, error: tcgError };
 }

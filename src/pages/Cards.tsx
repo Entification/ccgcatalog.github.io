@@ -1,19 +1,22 @@
 import { useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import queryString from 'query-string'
 
 import useCards from '../hooks/useCards'
 import { makeFuse } from '../utils/search'
-import { cardMatches, sortCards, type Query } from '../utils/filters'
+import {
+  cardMatches,
+  sortCards,
+  type Query,
+  type SortKey,
+  type SortDir,
+} from '../utils/filters'
 
 import FiltersPanel from '../components/FiltersPanel'
 import CardsToolbar from '../components/CardsToolbar'
 import VirtualizedCards from '../components/VirtualizedCards'
 import VirtualizedCardList from '../components/VirtualizedCardList'
 
-type Dir = 'asc'|'desc'
-
-export default function Cards(){
+export default function Cards() {
   const { cards, loading } = useCards()
   const [params] = useSearchParams()
 
@@ -25,10 +28,17 @@ export default function Cards(){
     return Number.isFinite(n) ? n : undefined
   }
 
+  // search & sorting params
   const qStr = params.get('q') || ''
-  const sort = params.get('sort') || 'name'
-  const defaultDir: Dir = sort === 'name' ? 'asc' : 'desc'
-  const sortDir: Dir = ((params.get('dir') as Dir) || defaultDir)
+
+  const allowedSort: SortKey[] = ['name','atk','def','level','rank','link','date']
+  const sortParam = (params.get('sort') || 'name') as string
+  const sort: SortKey = allowedSort.includes(sortParam as SortKey) ? (sortParam as SortKey) : 'name'
+
+  const defaultDir: SortDir = sort === 'name' ? 'asc' : 'desc'
+  const dirParam = (params.get('dir') as SortDir) || defaultDir
+  const sortDir: SortDir = (dirParam === 'asc' || dirParam === 'desc') ? dirParam : defaultDir
+
   const view = (params.get('view') as 'grid' | 'list') || 'grid'
 
   const filterQuery: Query = useMemo(() => {
@@ -74,10 +84,10 @@ export default function Cards(){
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params])
 
-  const results = useMemo(()=>{
-    if(loading) return [] as typeof cards
+  const results = useMemo(() => {
+    if (loading) return [] as typeof cards
     let pool = cards
-    if(qStr){
+    if (qStr) {
       const fuse = makeFuse(cards)
       pool = fuse.search(qStr).map(r => r.item)
     }
@@ -85,7 +95,7 @@ export default function Cards(){
     return sortCards(filtered, sort, sortDir)
   }, [cards, loading, qStr, filterQuery, sort, sortDir])
 
-  if(loading) return <div>Loading…</div>
+  if (loading) return <div>Loading…</div>
 
   return (
     <div>
