@@ -7,13 +7,8 @@
     "archetype": "Stardrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Xyz"
-    ],
-    "monsterType": [
-      "Machine"
-    ],
+    "cardTypes": ["Effect", "Xyz"],
+    "monsterType": ["Machine"],
     "attribute": "DARK",
     "level": null,
     "rank": 10,
@@ -70,12 +65,8 @@
     "archetype": "Condescender",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -103,12 +94,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Winged-Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Winged-Beast"],
     "attribute": "FIRE",
     "level": 2,
     "rank": null,
@@ -136,12 +123,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Beast"],
     "attribute": "EARTH",
     "level": 1,
     "rank": null,
@@ -169,12 +152,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 3,
     "rank": null,
@@ -202,12 +181,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Reptile"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Reptile"],
     "attribute": "WIND",
     "level": 4,
     "rank": null,
@@ -235,12 +210,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -268,12 +239,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "LIGHT",
     "level": 4,
     "rank": null,
@@ -301,12 +268,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 5,
     "rank": null,
@@ -334,12 +297,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "LIGHT",
     "level": 6,
     "rank": null,
@@ -367,12 +326,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Illusion"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Illusion"],
     "attribute": "DARK",
     "level": 8,
     "rank": null,
@@ -458,13 +413,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 6,
     "rank": null,
@@ -492,13 +442,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 8,
     "rank": null,
@@ -526,13 +471,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Beast-Warrior"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Beast-Warrior"],
     "attribute": "LIGHT",
     "level": 8,
     "rank": null,
@@ -560,13 +500,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Dragon"],
     "attribute": "LIGHT",
     "level": 11,
     "rank": null,
@@ -585,7 +520,7 @@
     "timestamps": {
       "added": "2025-01-17"
     }
-  }, 
+  },
   {
     "id": "CARD-0019",
     "name": "AETHERSTORM ZENITH WIRE-TAILED SYPHARION",
@@ -594,13 +529,8 @@
     "archetype": "Aetherstorm",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Xyz"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Effect", "Xyz"],
+    "monsterType": ["Dragon"],
     "attribute": "LIGHT",
     "level": null,
     "rank": 9,
@@ -628,13 +558,8 @@
     "archetype": "Armored Nova",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Xyz"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Effect", "Xyz"],
+    "monsterType": ["Dragon"],
     "attribute": "LIGHT",
     "level": null,
     "rank": 9,
@@ -691,13 +616,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Pendulum"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Pendulum"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 3,
     "rank": null,
@@ -725,13 +645,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Pendulum"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Pendulum"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -759,13 +674,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Pendulum"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Pendulum"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -793,13 +703,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Pendulum"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Pendulum"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 5,
     "rank": null,
@@ -972,12 +877,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Fusion"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 5,
     "rank": null,
@@ -1005,13 +906,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 7,
     "rank": null,
@@ -1039,13 +935,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 8,
     "rank": null,
@@ -1073,14 +964,8 @@
     "archetype": "Talismandrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion",
-      "Pendulum"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect", "Fusion", "Pendulum"],
+    "monsterType": ["Pyro"],
     "attribute": "DARK",
     "level": 9,
     "rank": null,
@@ -1108,12 +993,8 @@
     "archetype": "Aldrez",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "DARK",
     "level": 3,
     "rank": null,
@@ -1141,12 +1022,8 @@
     "archetype": "Aldrez",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": 2,
     "rank": null,
@@ -1174,12 +1051,8 @@
     "archetype": "Aldrez",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -1352,18 +1225,13 @@
     "archetype": "Aldrez",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": ["BL","R"],
+    "linkArrows": ["BL", "R"],
     "scale": null,
     "atk": 1800,
     "def": null,
@@ -1386,18 +1254,13 @@
     "archetype": "Aldrez",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Rock"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Rock"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": ["L","B"],
+    "linkArrows": ["L", "B"],
     "scale": null,
     "atk": 1500,
     "def": null,
@@ -1420,13 +1283,8 @@
     "archetype": "Aldrez",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Xyz"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect", "Xyz"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": null,
     "rank": 4,
@@ -1454,12 +1312,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 3,
     "rank": null,
@@ -1487,12 +1341,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 3,
     "rank": null,
@@ -1520,12 +1370,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 3,
     "rank": null,
@@ -1553,12 +1399,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -1586,12 +1428,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -1735,18 +1573,13 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": ["BL","BR"],
+    "linkArrows": ["BL", "BR"],
     "scale": null,
     "atk": 1600,
     "def": null,
@@ -1769,13 +1602,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Ritual"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect", "Ritual"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -1803,13 +1631,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Ritual"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect", "Ritual"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -1837,13 +1660,8 @@
     "archetype": "Frute",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Ritual"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect", "Ritual"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 9,
     "rank": null,
@@ -1958,12 +1776,8 @@
     "archetype": "NiuHao",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Winged-Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Winged-Beast"],
     "attribute": "FIRE",
     "level": 1,
     "rank": null,
@@ -1991,12 +1805,8 @@
     "archetype": "NiuHao",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Winged-Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Winged-Beast"],
     "attribute": "FIRE",
     "level": 1,
     "rank": null,
@@ -2024,12 +1834,8 @@
     "archetype": "NiuHao",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Winged-Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Winged-Beast"],
     "attribute": "FIRE",
     "level": 1,
     "rank": null,
@@ -2057,12 +1863,8 @@
     "archetype": "NiuHao",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Winged-Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Winged-Beast"],
     "attribute": "FIRE",
     "level": 1,
     "rank": null,
@@ -2511,12 +2313,8 @@
     "archetype": "Ursarctic",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Beast"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Beast"],
     "attribute": "WATER",
     "level": 7,
     "rank": null,
@@ -2544,12 +2342,8 @@
     "archetype": "Ursarctic",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Beast-Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Beast-Warrior"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -2606,13 +2400,8 @@
     "archetype": "Ursarctic",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Synchro"
-    ],
-    "monsterType": [
-      "Machine"
-    ],
+    "cardTypes": ["Effect", "Synchro"],
+    "monsterType": ["Machine"],
     "attribute": "WATER",
     "level": 1,
     "rank": null,
@@ -2640,14 +2429,8 @@
     "archetype": "Ursarctic",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Synchro",
-      "Tuner"
-    ],
-    "monsterType": [
-      "Beast-Warrior"
-    ],
+    "cardTypes": ["Effect", "Synchro", "Tuner"],
+    "monsterType": ["Beast-Warrior"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -2675,13 +2458,8 @@
     "archetype": "Ursarctic",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Synchro"
-    ],
-    "monsterType": [
-      "Beast-Warrior"
-    ],
+    "cardTypes": ["Effect", "Synchro"],
+    "monsterType": ["Beast-Warrior"],
     "attribute": "WATER",
     "level": 7,
     "rank": null,
@@ -2761,23 +2539,13 @@
     "archetype": null,
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Cyberse"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Cyberse"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 4,
-    "linkArrows": [
-      "TL",
-      "TR",
-      "BL",
-      "BR"
-    ],
+    "linkArrows": ["TL", "TR", "BL", "BR"],
     "scale": null,
     "atk": 2000,
     "def": null,
@@ -2800,12 +2568,8 @@
     "archetype": "Prophecy",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "FIRE",
     "level": 8,
     "rank": null,
@@ -2833,12 +2597,8 @@
     "archetype": "Prophecy",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -2866,12 +2626,8 @@
     "archetype": "Prophecy",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "EARTH",
     "level": 8,
     "rank": null,
@@ -2899,12 +2655,8 @@
     "archetype": "Prophecy",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 8,
     "rank": null,
@@ -2932,12 +2684,8 @@
     "archetype": "Prophecy",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "LIGHT",
     "level": 8,
     "rank": null,
@@ -2965,12 +2713,8 @@
     "archetype": "Prophecy",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "DARK",
     "level": 8,
     "rank": null,
@@ -3021,13 +2765,8 @@
     "archetype": "Stain",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "LIGHT",
     "level": 8,
     "rank": null,
@@ -3176,13 +2915,8 @@
     "archetype": "Spirit",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Spirit"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect", "Spirit"],
+    "monsterType": ["Fiend"],
     "attribute": "FIRE",
     "level": 4,
     "rank": null,
@@ -3210,13 +2944,8 @@
     "archetype": "Spirit",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Spirit"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect", "Spirit"],
+    "monsterType": ["Fiend"],
     "attribute": "FIRE",
     "level": 4,
     "rank": null,
@@ -3244,13 +2973,8 @@
     "archetype": "Spirit",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Spirit"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect", "Spirit"],
+    "monsterType": ["Fiend"],
     "attribute": "LIGHT",
     "level": 4,
     "rank": null,
@@ -3278,13 +3002,8 @@
     "archetype": "Spirit",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Spirit"
-    ],
-    "monsterType": [
-      "Beast"
-    ],
+    "cardTypes": ["Effect", "Spirit"],
+    "monsterType": ["Beast"],
     "attribute": "EARTH",
     "level": 4,
     "rank": null,
@@ -3312,13 +3031,8 @@
     "archetype": "Spirit",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Spirit"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect", "Spirit"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -3433,14 +3147,8 @@
     "archetype": "Spirit",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Spirit",
-      "Synchro"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect", "Spirit", "Synchro"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": 9,
     "rank": null,
@@ -3468,12 +3176,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -3501,12 +3205,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -3534,12 +3234,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Sea-Serpent"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Sea-Serpent"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -3567,12 +3263,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fish"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fish"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -3600,12 +3292,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fish"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fish"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -3691,13 +3379,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -3725,18 +3408,13 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": ["BL","BR"],
+    "linkArrows": ["BL", "BR"],
     "scale": null,
     "atk": 1600,
     "def": null,
@@ -3759,13 +3437,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Synchro"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect", "Synchro"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -3793,13 +3466,8 @@
     "archetype": "Grand Blue",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Fusion"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect", "Fusion"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -3850,13 +3518,8 @@
     "archetype": "Nephthys",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Ritual"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect", "Ritual"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 2,
     "rank": null,
@@ -3905,7 +3568,7 @@
       "added": "2025-05-01"
     }
   },
-   {
+  {
     "id": "CARD-129",
     "name": "Stellaer of the Frozen",
     "image": "/assets/cards/Stellaer-of-the-Frozen.jpeg",
@@ -3957,7 +3620,7 @@
       "added": "2025-05-01"
     }
   },
-    {
+  {
     "id": "CARD-0131",
     "name": "TO PROTO OUSIA",
     "image": "/assets/cards/TO-PROTO-OUSIA.jpg",
@@ -3965,12 +3628,8 @@
     "archetype": "To Proto",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Galaxy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Galaxy"],
     "attribute": "LIGHT",
     "level": 1,
     "rank": null,
@@ -3990,7 +3649,7 @@
       "added": "2025-05-01"
     }
   },
-    {
+  {
     "id": "CARD-0132",
     "name": "TO PROTO ARCHEGONI",
     "image": "/assets/cards/TO-PROTO-ARCHEGONI.jpg",
@@ -3998,13 +3657,8 @@
     "archetype": "To Proto",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Galaxy"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Galaxy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
@@ -4119,12 +3773,8 @@
     "archetype": "To Proto",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Galaxy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Galaxy"],
     "attribute": "LIGHT",
     "level": 11,
     "rank": null,
@@ -4244,18 +3894,13 @@
     "archetype": "To Proto",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Link"
-    ],
-    "monsterType": [
-      "Galaxy"
-    ],
+    "cardTypes": ["Effect", "Link"],
+    "monsterType": ["Galaxy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": ["BL","BR"],
+    "linkArrows": ["BL", "BR"],
     "scale": null,
     "atk": 0,
     "def": null,
@@ -4784,13 +4429,8 @@
     "archetype": "Dysmandr",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Dragon"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
@@ -4905,13 +4545,8 @@
     "archetype": null,
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "WATER",
     "level": 3,
     "rank": null,
@@ -4939,13 +4574,8 @@
     "archetype": null,
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 3,
     "rank": null,
@@ -5178,7 +4808,7 @@
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": { "added": "2025-07-22" }
   },
-    {
+  {
     "id": "CARD-00179",
     "name": "Guardian of Wicked Puppeteer",
     "image": "/assets/cards/Guardian_of_Wicked_Puppeteer.jpeg",
@@ -5186,12 +4816,8 @@
     "archetype": "Wicked Puppeteer",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": 6,
     "rank": null,
@@ -5201,12 +4827,7 @@
     "atk": 1800,
     "def": 2100,
     "text": "You can discard this card; send 1 \"Wicked Puppeteer\" card from your Deck to the GY. You can banish this card from your GY; Ritual Summon 1 \"Wicked Puppeteer Orchis\" from your hand or GY by Tributing monsters from your hand and/or field whose total Levels equal or exceed 4. You can only use each effect of \"Guardian of Wicked Puppeteer\" once per turn.",
-    "keywords": [
-      "discard",
-      "send to GY",
-      "banish",
-      "Ritual Summon"
-    ],
+    "keywords": ["discard", "send to GY", "banish", "Ritual Summon"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5220,12 +4841,8 @@
     "archetype": "Wicked Puppeteer",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -5235,11 +4852,7 @@
     "atk": 1500,
     "def": 1500,
     "text": "This card is treated as \"Wicked Puppeteer Orchis\" and a Ritual monster while on the field. If this card is Normal Summoned: You can discard 1 card; add 1 \"Wicked Puppeteer Orchis\" and 1 \"Wicked Puppeteer Tragedy\" from your Deck, GY, or banishment to your hand. If a monster whose original name is \"Wicked Puppeteer Orchis\" you control leaves the field because of your opponent's card effect: You can Special Summon this card from your GY, then you can Special Summon 1 \"Puppet Token\" (DARK/Warrior/Level 4/ATK 1500/DEF 200). You can only use each effect of \"The True Wicked Puppeteer, Orchis\" once per turn.",
-    "keywords": [
-      "add to hand",
-      "Special Summon",
-      "Token"
-    ],
+    "keywords": ["add to hand", "Special Summon", "Token"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5253,13 +4866,8 @@
     "archetype": "Wicked Puppeteer",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Ritual",
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Ritual", "Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -5300,12 +4908,7 @@
     "atk": null,
     "def": null,
     "text": "Ritual Summon 1 \"Wicked Puppeteer Orchis\" from your hand or GY, by Tributing monsters from your hand and/or field whose total Levels equal or exceed 4. If this card is in the GY: You can banish this card; send 1 \"Wicked Puppeteer\" monster from your Deck to the GY. You can only use each effect of \"Wicked Puppeteer Tragedy\" once per turn.",
-    "keywords": [
-      "Ritual Summon",
-      "Tribute",
-      "banish",
-      "send to GY"
-    ],
+    "keywords": ["Ritual Summon", "Tribute", "banish", "send to GY"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5330,11 +4933,7 @@
     "atk": null,
     "def": null,
     "text": "When this card activated: You can add 1 \"Wicked Puppeteer\" monster from your Deck to your hand. If a \"Wicked Puppeteer\" monster(s) you control would be destroyed by battle or your opponent's card effect, while you control a Ritual Monster, you can banish 1 card from your Extra Deck face-down instead. If \"Wicked Puppeteer Orchis\" leaves the field because of your opponent's card effect: You can add 1 \"Wicked Puppeteer Tragedy\" and 1 \"Wicked Puppeteer\" monster from your Deck to the hand. You can only use each effect of \"Wicked Puppeteery\" once per turn.",
-    "keywords": [
-      "add to hand",
-      "destroy protection",
-      "banish"
-    ],
+    "keywords": ["add to hand", "destroy protection", "banish"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5394,12 +4993,8 @@
     "archetype": "Vir Pedicae Mortis",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -5409,11 +5004,7 @@
     "atk": 1300,
     "def": 800,
     "text": "If this card is Normal or Special Summoned: You can add 1 \"Bear Trap\" or 1 \"Mine\" Field Spell from your Deck to your hand. If your \"Vir Pedicae Mortis\" monster battles: You can send 1 \"Recollection\" Spell that mentions \"Vir Pedicae Mortis\" in its text from your Deck to the GY; that monster gains 500 ATK. You can only use each effect of \"Pedicae's Papa\" once per turn.",
-    "keywords": [
-      "add to hand",
-      "send to GY",
-      "gain ATK"
-    ],
+    "keywords": ["add to hand", "send to GY", "gain ATK"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5427,12 +5018,8 @@
     "archetype": "Vir Pedicae Mortis",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -5442,12 +5029,7 @@
     "atk": 1800,
     "def": 2000,
     "text": "If this card is Normal or Special Summoned: You can discard 1 card or send 1 \"Recollection\" card you control to the GY; add 1 \"Recollection\" card and 1 \"Bear Trap\" or 1 \"Mortis\" card from your Deck to your hand. You can only use this effect of \"Vir Pedicae Mortis - Entity's Happy Servant\" once per turn. While you control \"Pedicae's Papa\", \"Recollection\" cards and \"Mine\" Field Spells you control cannot be destroyed by your opponent's card effects.",
-    "keywords": [
-      "discard",
-      "send to GY",
-      "add to hand",
-      "destroy protection"
-    ],
+    "keywords": ["discard", "send to GY", "add to hand", "destroy protection"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5461,12 +5043,8 @@
     "archetype": "Vir Pedicae Mortis",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -5476,11 +5054,7 @@
     "atk": 1800,
     "def": 2000,
     "text": "If this card is Normal or Special Summoned: You can target 1 Spell/Trap your opponent controls; destroy it. You can only use this effect of \"Vir Pedicae Mortis - Fearless Hunter\" once per turn. This card can be treated as 2 materials, when you Link Summon a \"Vir Pedicae Mortis\" monster.",
-    "keywords": [
-      "target",
-      "destroy",
-      "Link Summon"
-    ],
+    "keywords": ["target", "destroy", "Link Summon"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5494,12 +5068,8 @@
     "archetype": "Vir Pedicae Mortis",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -5528,32 +5098,18 @@
     "archetype": "Vir Pedicae Mortis",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 3,
-    "linkArrows": [
-      "L",
-      "R",
-      "BL"
-    ],
+    "linkArrows": ["L", "R", "BL"],
     "scale": null,
     "atk": 2600,
     "def": null,
     "text": "2+ monsters, including a \"Vir Predicae Mortis\" monster\nIf this card is Link Summoned: You can target 1 \"Vir Predicae Mortis\" in your GY; Special Summon it. If you activated a \"Bear Trap\" this turn (Quick Effect): You can target up to 2 cards your opponent controls; destroy them. You can only use each effect of \"Vir Predicae Mortis - True Nightmare\" once per turn.",
-    "keywords": [
-      "Link Summon",
-      "Special Summon",
-      "target",
-      "destroy"
-    ],
+    "keywords": ["Link Summon", "Special Summon", "target", "destroy"],
     "legal": { "semiLimited": false, "limited": false, "banned": false },
     "timestamps": {
       "added": "2025-07-22"
@@ -5734,7 +5290,7 @@
     "level": null,
     "rank": null,
     "linkRating": 1,
-    "linkArrows": null,
+    "linkArrows": ["T"],
     "scale": null,
     "atk": 1500,
     "def": null,
@@ -5790,19 +5346,15 @@
     "timestamps": { "added": "2025-07-22" }
   },
   {
-      "id": "CARD-00201",
+    "id": "CARD-00201",
     "name": "Emma Oceannus & the Nautical Coastlines",
     "image": "/assets/cards/Emma_Oceannus_&_the_Nautical_Coastlines.jpeg",
     "set": "DOTE-031 Dawn of the Elements",
     "archetype": "Nautica",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 1,
     "rank": null,
@@ -5812,10 +5364,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "Cannot be Normal Summoned/Set. If your opponent Normal or Special Summons a monster: You can Special Summon this card from your hand, then, immediately after this effect resolves, you can Xyz Summon 1 \"Nautica\" Xyz Monster from your Extra Deck using monsters you control as material.",
-    "keywords": [
-      "Special Summon",
-      "Xyz Summon"
-    ],
+    "keywords": ["Special Summon", "Xyz Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -5833,12 +5382,8 @@
     "archetype": "Nautica",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 1,
     "rank": null,
@@ -5848,10 +5393,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "Cannot be Normal Summoned/Set. If your opponent Normal or Special Summons a monster: You can Special Summon this card from your hand, then, immediately after this effect resolves, your opponent Normal or Special Summons 1 monster from their hand in Attack Position, but its ATK becomes 0, and if you do, if all monsters you control are \"Nautica\" monsters, negate its effects. You can only use this effect of \"Bobbie Bluefin & the Nautical Nocturnes\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "negate"
-    ],
+    "keywords": ["Special Summon", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -5869,12 +5411,8 @@
     "archetype": "Nautica",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 7,
     "rank": null,
@@ -5884,12 +5422,7 @@
     "atk": 2000,
     "def": 0,
     "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by placing 2 Aqua Monsters from your GY on the bottom of your Deck in any order. You can treat this card as a Level 1 monster when you Xyz Summon an Aqua monster. You can discard 1 card; shuffle this card from your hand into the Deck, then add 1 \"Exploring the Nautical Waters\" from your Deck to your hand. If this card is Special Summoned: You can draw 1 card, then, immediately after this effect resolves, your opponent Normal or Special Summons 1 monster from their hand in Attack Position, but its ATK becomes 0.",
-    "keywords": [
-      "Special Summon",
-      "Xyz Summon",
-      "add to hand",
-      "draw"
-    ],
+    "keywords": ["Special Summon", "Xyz Summon", "add to hand", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -5907,13 +5440,8 @@
     "archetype": "Nautica",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Xyz",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Xyz", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": null,
     "rank": 1,
@@ -5923,12 +5451,7 @@
     "atk": 2000,
     "def": 0,
     "text": "2+ Level 1 Aqua monsters\nGains 500 ATK for each \"Nautica\" card attached to it as Xyz Material. Once per turn (Quick Effect): You can detach 1 material from this card, then target 1 monster your opponent controls; return it to the hand, then, immediately after this effect resolves, your opponent Normal or Special Summons 1 monster from their hand in Attack Position, but its ATK becomes 0.",
-    "keywords": [
-      "gain ATK",
-      "detach",
-      "return to hand",
-      "Special Summon"
-    ],
+    "keywords": ["gain ATK", "detach", "return to hand", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -5957,12 +5480,7 @@
     "atk": null,
     "def": null,
     "text": "Target 1 \"Nautica\" monster in your GY; return that target to the hand, then, immediately after this effect resolves, your opponent Normal or Special Summons 1 monster from their hand in Attack Position, but its ATK becomes 0. You can banish this card from your GY; place 3 Aqua monsters from your GY on the bottom of your Deck in any order, then draw 1 card. You can only use 1 effect of \"Nautical Backwashing & Oceanic Waves\" per turn and only once that turn.",
-    "keywords": [
-      "target",
-      "return to hand",
-      "banish",
-      "draw"
-    ],
+    "keywords": ["target", "return to hand", "banish", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -5980,13 +5498,8 @@
     "archetype": "Nautica",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Xyz",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Xyz", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": null,
     "rank": 1,
@@ -5996,12 +5509,7 @@
     "atk": 0,
     "def": 2000,
     "text": "2+ Level 1 Aqua monsters\nCannot be destroyed by battle or card effects while it has a \"Nautica\" card as Xyz Material. Once per turn (Quick Effect): You can detach 2 materials from this card; Set 1 \"Nautica\" Spell/Trap directly from your Deck, or add 1 \"Nautica\" monster from your Deck to your hand.",
-    "keywords": [
-      "destroy protection",
-      "detach",
-      "Set",
-      "add to hand"
-    ],
+    "keywords": ["destroy protection", "detach", "Set", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6030,11 +5538,7 @@
     "atk": null,
     "def": null,
     "text": "Add 1 \"Nautica\" monster from your Deck to your hand, then, immediately after this effect resolves, your opponent Normal or Special Summons 1 monster from their hand or Deck in Attack Position, but its ATK becomes 0, then, if that monster was Special Summoned from the Deck this way, negate its effects. You cannot Special Summon monsters the turn you use this effect, except WATER Monsters. You can only activate 1 \"Exploring the Nautical Waters\" per turn.",
-    "keywords": [
-      "add to hand",
-      "Special Summon",
-      "negate"
-    ],
+    "keywords": ["add to hand", "Special Summon", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6063,11 +5567,7 @@
     "atk": null,
     "def": null,
     "text": "Target 1 \"Nautica\" monster you control and 1 monster your opponent controls; return those targets to the hand, then, immediately after this effect resolves, your opponent Normal or Special Summons 1 monster from their hand in Attack Position, but its ATK is becomes 0. If your WATER Monster is Xyz Summoned while this card is in the GY: You can attach this card to it as Xyz material, but banish this card when detached. You can only use each effect of \"Nautical Adventures & Torrential Seas\" once per turn.",
-    "keywords": [
-      "target",
-      "return to hand",
-      "attach as material"
-    ],
+    "keywords": ["target", "return to hand", "attach as material"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6085,13 +5585,8 @@
     "archetype": "Bob",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Normal"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Tuner", "Normal"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -6119,14 +5614,8 @@
     "archetype": "Bob",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Tuner", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -6159,12 +5648,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 2,
     "rank": null,
@@ -6174,12 +5659,7 @@
     "atk": 300,
     "def": 1000,
     "text": "(Quick effect): You can discard this card, then target 1 Level 3 or lower Zombie monster in your GY; Special Summon it. If you control a Level 6 or higher \"Crying Chaos\" Synchro Monster: You can banish this card from your GY; Special Summon 1 Level 3 Zombie monster from your hand or GY. You can only use each effect of \"Bookkeeper of Crying Chaos\" once per turn.",
-    "keywords": [
-      "discard",
-      "target",
-      "Special Summon",
-      "banish"
-    ],
+    "keywords": ["discard", "target", "Special Summon", "banish"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6197,13 +5677,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Normal"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Tuner", "Normal"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 3,
     "rank": null,
@@ -6231,12 +5706,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 3,
     "rank": null,
@@ -6246,11 +5717,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "If you control a Level 3 or lower Zombie monster, you can Special Summon this card from your hand. If you control no tuner monsters: You can send 1 card from your hand to the GY; this card is treated as a Tuner until the end of the turn. You can only use each effect of \"Plague Doctor of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "send to GY",
-      "Tuner"
-    ],
+    "keywords": ["Special Summon", "send to GY", "Tuner"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6268,13 +5735,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 3,
     "rank": null,
@@ -6308,12 +5770,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -6323,11 +5781,7 @@
     "atk": 0,
     "def": 2000,
     "text": "If this card is Normal or Special Summoned: You can Special Summon 1 Level 3 Zombie Tuner monster from your Deck, and if you do, you cannot Special Summon monsters until the end of this turn, except Zombie monsters. If this card is sent to the GY as Synchro Material: You can Special Summon this card from the GY, but banish it when it leaves the field. You can only use each effect of \"Slug of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Synchro Material",
-      "banish"
-    ],
+    "keywords": ["Special Summon", "Synchro Material", "banish"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6345,12 +5799,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -6384,12 +5834,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 5,
     "rank": null,
@@ -6399,12 +5845,7 @@
     "atk": 2100,
     "def": 400,
     "text": "Gains 400 ATK for each Zombie monster you control and in your GY. You can only use the following effect of \"Hunter of Crying Chaos\" once per turn. If this card is sent to the GY: You can banish this card; add 1 \"Crying Chaos\" monster from your Deck to your hand or set 1 \"Crying Chaos\" Spell/Trap from your Deck directly to your field.",
-    "keywords": [
-      "gain ATK",
-      "banish",
-      "add to hand",
-      "Set"
-    ],
+    "keywords": ["gain ATK", "banish", "add to hand", "Set"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6422,12 +5863,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 7,
     "rank": null,
@@ -6437,10 +5874,7 @@
     "atk": 2500,
     "def": 2200,
     "text": "If you control a \"Crying Chaos\" monster with 2500 or more ATK, you can Special Summon this card (from your hand or GY). If this card is Special Summoned: You can either increase or decrease this card's Level by 2 until the end of the turn. You can only use this effect of \"Guardian of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "modify Level"
-    ],
+    "keywords": ["Special Summon", "modify Level"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6458,30 +5892,18 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "BL",
-      "BR"
-    ],
+    "linkArrows": ["BL", "B"],
     "scale": null,
     "atk": 0,
     "def": null,
     "text": "2 Level 4 or lower Zombie monsters, including a \"Crying Chaos\" monster\nIf this card is Link Summoned: You can add 1 Level 3 \"Crying Chaos\" Tuner monster from your Deck to your hand. If this card is sent from the field to the GY: You can Special Summon 1 Level 4 or lower Zombie monster from your hand or GY. You can only use each effect of \"Goat of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Link Summon",
-      "add to hand",
-      "Special Summon"
-    ],
+    "keywords": ["Link Summon", "add to hand", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6499,31 +5921,18 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 3,
-    "linkArrows": [
-      "T",
-      "BL",
-      "BR"
-    ],
+    "linkArrows": ["T", "BL", "BR"],
     "scale": null,
     "atk": 2700,
     "def": null,
     "text": "2+ Zombie monsters, including a Link Monster\nIf this card is Link Summoned using a \"Crying Chaos\" Link Monster: You can shuffle 3 \"Crying Chaos\" cards from your GY and/or banishment into the Deck. If this card points to a \"Crying Chaos\" Synchro Monster(s): You can make this card gain ATK equal to half the ATK of a monster it points to until the end of the turn. You can only use each effect of \"Zenatil, Criminal Bookkeeper of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Link Summon",
-      "shuffle into Deck",
-      "gain ATK"
-    ],
+    "keywords": ["Link Summon", "shuffle into Deck", "gain ATK"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6541,14 +5950,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Synchro", "Tuner", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -6558,11 +5961,7 @@
     "atk": 1400,
     "def": 1600,
     "text": "1 Zombie Tuner + 1 non-Tuner monster\nIf this card is Synchro Summoned: You can Target 1 Zombie monster in your GY; Special Summon it. If this card is sent to the GY as a Synchro Material: You can inflict 500 damage to your opponent for each Zombie monster you control and in your GY. You can only use each effect of \"Zebra of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Synchro Summon",
-      "Special Summon",
-      "effect damage"
-    ],
+    "keywords": ["Synchro Summon", "Special Summon", "effect damage"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6580,13 +5979,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 8,
     "rank": null,
@@ -6596,12 +5990,7 @@
     "atk": 2400,
     "def": 1700,
     "text": "1 Zombie Tuner monster + 1 non-Tuner monster\nIf this card is Synchro Summoned: You can Special Summon 1 Level 4 or lower Zombie monster from your GY, but banish it when it leaves the field. You can Tribute 1 monster you control; destroy 1 card on the field. You can only use each effect of \"Ram of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Synchro Summon",
-      "Special Summon",
-      "Tribute",
-      "destroy"
-    ],
+    "keywords": ["Synchro Summon", "Special Summon", "Tribute", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6619,13 +6008,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 8,
     "rank": null,
@@ -6635,11 +6019,7 @@
     "atk": 2900,
     "def": 2500,
     "text": "1 Zombie Tuner monster + 1 non-Tuner monster\nIf this card is Synchro Summoned: You can Special Summon 1 Level 3 Zombie Tuner monster from your Deck or GY. If your opponent activates a monster effect that targets a card you control or in your GY (Quick effect): You can shuffle 1 Zombie monster from your banishment into the Deck; negate that effect. You can only use each effect of \"Natir, The Swords Master of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Synchro Summon",
-      "Special Summon",
-      "negate"
-    ],
+    "keywords": ["Synchro Summon", "Special Summon", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6657,13 +6037,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 10,
     "rank": null,
@@ -6697,13 +6072,8 @@
     "archetype": "Crying Chaos",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Zombie"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Zombie"],
     "attribute": "DARK",
     "level": 11,
     "rank": null,
@@ -6713,11 +6083,7 @@
     "atk": 4000,
     "def": 4000,
     "text": "1 Zombie Tuner monster + 1 \"Revelation of Crying Chaos\"\nIf this card is Synchro Summoned: You can return all cards your opponent controls to the hand. When your opponent activates a monster effect (Quick effect): You can negate that effect, then shuffle 1 Zombie monster from your GY into the Deck. You can only use each effect of \"Dragon of Crying Chaos\" once per turn.",
-    "keywords": [
-      "Synchro Summon",
-      "return to hand",
-      "negate"
-    ],
+    "keywords": ["Synchro Summon", "return to hand", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6735,13 +6101,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 4,
     "rank": null,
@@ -6775,13 +6136,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 4,
     "rank": null,
@@ -6815,13 +6171,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 4,
     "rank": null,
@@ -6855,12 +6206,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 5,
     "rank": null,
@@ -6870,12 +6217,7 @@
     "atk": 2300,
     "def": 1700,
     "text": "You can also reveal up to 2 \"Windborne\" Spells in your hand to activate this effect; Special Summon this card from your hand by shuffling up to 2 cards from your hand into the Deck, including \"Windborne\" Spells you revealed to activate this effect (if any), and if you do, during the next Standby Phase, add a \"Windborne\" card from your Deck to your hand for each card you shuffled into the Deck by this effect, except \"Janna, Windborne Goddess of the Temple\", then Set \"Windborne\" Quick-Play Spells directly from your Deck for each card you revealed to activate this effect. The Set Quick-Play Spell(s) can be activated that turn. If this card is Normal or Special Summoned: You can send 1 \"Windborne\" card from your Deck to the GY, then you can shuffle 1 \"Windborne\" card with a different name from your GY into the Deck, or, if it is a Spell/Trap, you can Set it to your field. You can only use each effect of \"Janna, Windborne Goddess of the Temple\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "add to hand",
-      "Set",
-      "send to GY"
-    ],
+    "keywords": ["Special Summon", "add to hand", "Set", "send to GY"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6893,12 +6235,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 7,
     "rank": null,
@@ -6908,11 +6246,7 @@
     "atk": 1700,
     "def": 2300,
     "text": "You can also reveal up to 2 \"Windborne\" Spells in your hand to activate this effect; Special Summon this card from your hand by shuffling up to 2 cards from your hand into the Deck, including \"Windborne\" Spells you revealed to activate this effect (if any), and if you do, during the next Standby Phase, add 1 \"Windborne\" card from your Deck to your hand for each card you shuffled into the Deck by this effect, except \"Maryam, Windborne Caretaker of the Temple\", then Set \"Windborne\" Quick-Play Spells directly from your Deck for each card you revealed to activate this effect. The Set Quick-Play Spell(s) can be activated that turn. If this card is Normal or Special Summoned: You can add 1 \"Windborne\" card from your GY to your hand. You can only use each effect of \"Maryam, Windborne Caretaker of the Temple\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "add to hand",
-      "Set"
-    ],
+    "keywords": ["Special Summon", "add to hand", "Set"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6941,11 +6275,7 @@
     "atk": null,
     "def": null,
     "text": "Cannot be destroyed by your opponent's card effects while you control a \"Windborne\" monster. When this card is activated: You can add 1 \"Windborne\" card from your Deck to your hand, except \"Sunken Temple of the Windborne\". Once per turn, during the Standby Phase, if you add a \"Windborne\" card from your Deck to your hand, you can draw 1 card, and if you do, place 1 card from your hand on the bottom of your Deck. You can only activate 1 \"Sunken Temple of the Windborne\" per turn.",
-    "keywords": [
-      "destroy protection",
-      "add to hand",
-      "draw"
-    ],
+    "keywords": ["destroy protection", "add to hand", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -6974,11 +6304,7 @@
     "atk": null,
     "def": null,
     "text": "Target 1 monster you control and 1 monster your opponent controls; return them to the hand, then, if you added 3 or more \"Windborne\" cards from your Deck to your hand this turn, you can Special Summon 1 \"Windborne\" monster from your hand. For the rest of this turn, you cannot Special Summon non-\"Windborne\" monsters with the same Level as that monster.",
-    "keywords": [
-      "target",
-      "return to hand",
-      "Special Summon"
-    ],
+    "keywords": ["target", "return to hand", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7007,12 +6333,7 @@
     "atk": null,
     "def": null,
     "text": "Target 1 monster you control; banish it until the End Phase, then, if you added 3 or more \"Windborne\" cards from your Deck to your hand this turn, and you banished a WIND Synchro Monster by this effect, you can Special Summon 1 \"Windborne\" Synchro Monster with a different name from your Extra Deck (this is treated as a Synchro Summon using only \"Windborne\" monsters).",
-    "keywords": [
-      "target",
-      "banish",
-      "Special Summon",
-      "Synchro Summon"
-    ],
+    "keywords": ["target", "banish", "Special Summon", "Synchro Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7041,12 +6362,7 @@
     "atk": null,
     "def": null,
     "text": "Declare Level 4 or 6; Special Summon 1 \"Winborne Swallow Token\" (Winged Beast/WIND/ATK 1000/DEF 1000) with the declared Level, then, if you added 3 or more \"Windborne\" cards from your Deck to your hand this turn, you can treat it as a Tuner and/or make it gain 500 ATK/DEF for each \"Windborne\" Quick-Play Spell you activated this Duel.",
-    "keywords": [
-      "Special Summon",
-      "Token",
-      "Tuner",
-      "gain ATK/DEF"
-    ],
+    "keywords": ["Special Summon", "Token", "Tuner", "gain ATK/DEF"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7075,12 +6391,7 @@
     "atk": null,
     "def": null,
     "text": "Target up to 2 \"Windborne\" cards in your GY, except \"Windborne Divine Whirlwind\"; add them to your hand during the next Standby Phase, or Set them to your field, then, if you added 3 or more \"Windborne\" cards from your Deck to your hand this turn, you can Special Summon 1 non-Synchro \"Windborne\" monster from your Deck or GY.",
-    "keywords": [
-      "target",
-      "add to hand",
-      "Set",
-      "Special Summon"
-    ],
+    "keywords": ["target", "add to hand", "Set", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7089,7 +6400,8 @@
     "timestamps": {
       "added": "2025-07-22"
     }
-  },  {
+  },
+  {
     "id": "CARD-00237",
     "name": "Muntith, Windborne Skydragon of the Shining Sun",
     "image": "/assets/cards/Muntith_Windborne_Skydragon_of_the_Shining_Sun.jpeg",
@@ -7097,13 +6409,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Dragon"],
     "attribute": "WIND",
     "level": 10,
     "rank": null,
@@ -7113,12 +6420,7 @@
     "atk": 3200,
     "def": 2800,
     "text": "1 Tuner + 1+ non-Tuner monsters\nCannot be destroyed by battle or card effects the turn it is Synchro Summoned. If this card is Synchro Summoned using only \"Windborne\" monsters: You can banish all monsters your opponent controls until the End Phase. During the End Phase: You can target 1 \"Windborne\" monster in your GY; add that target to your hand during your next Standby Phase. You can only use each effect of \"Muntith, Windborne Skydragon of the Shining Sun\" once per turn.",
-    "keywords": [
-      "Synchro Summon",
-      "destroy protection",
-      "banish",
-      "recover"
-    ],
+    "keywords": ["Synchro Summon", "destroy protection", "banish", "recover"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7136,13 +6438,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "WIND",
     "level": 10,
     "rank": null,
@@ -7175,13 +6472,8 @@
     "archetype": "Windborne",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WIND",
     "level": 8,
     "rank": null,
@@ -7191,11 +6483,7 @@
     "atk": 2600,
     "def": 2600,
     "text": "1 Tuner + 1+ non-Tuner monsters\nWhile face-up on the field, this card's Attribute is also treated as WATER. You take no battle damage from battles involving this card the turn it is Synchro Summoned. When you add a \"Windborne\" card to your hand, this card gains 200 ATK/DEF until the end of this turn. If this card is sent to the GY: You can Special Summon it, and if you do, reduce its Level by 2, but return it to the Extra Deck when it leaves the field. You can only use this effect of \"Iscylla, Windborne Kraken of Sunken Depths\" once per turn.",
-    "keywords": [
-      "gain ATK/DEF",
-      "Special Summon",
-      "modify Level"
-    ],
+    "keywords": ["gain ATK/DEF", "Special Summon", "modify Level"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7213,12 +6501,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7228,10 +6512,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "If your opponent controls a monster, you can Special Summon this card (from your hand or GY). You can only Special Summon \"Shining Brigade - Hope Division\" once per turn this way. (Quick Effect): You can Tribute this card; Special Summon 2 Level 2 \"Shining Brigade\" monsters from your Deck, except \"Shining Brigade - Hope Division\", but they cannot attack or activate their effects this turn. You can only use this effect of \"Shining Brigade - Hope Division\" once per turn. You cannot Special Summon monsters the turn you activate this effect, except \"Shining Brigade\" monsters.",
-    "keywords": [
-      "Special Summon",
-      "Tribute"
-    ],
+    "keywords": ["Special Summon", "Tribute"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7249,12 +6530,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7264,10 +6541,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "If this card is Normal or Special Summoned: You can add 1 \"Shining Brigade\" Spell from your Deck or GY to your hand. You cannot Special Summon monsters the turn you use this effect, except \"Shining Brigade\" monsters. You can only use this effect of \"Shining Brigade - Forward Division\" once per turn. A \"Shining Brigade\" monster that has this card as material gains the following effect.\n● Each turn, negate the effect of your opponent's first Spell Card or effect that resolves.",
-    "keywords": [
-      "add to hand",
-      "negate"
-    ],
+    "keywords": ["add to hand", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7285,12 +6559,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7300,11 +6570,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "You can Special Summon this card (from your hand) by shuffling 1 \"Shining Brigade\" card from your banishment or GY into the Deck. You can only Special Summon \"Shining Brigade - Flowering Division\" once per turn this way. A \"Shining Brigade\" monster that has this card as material gains the following effect.\n● Once per turn: You can add 1 \"Shining Brigade\" card from your GY or banishment to your hand.",
-    "keywords": [
-      "Special Summon",
-      "add to hand",
-      "recover"
-    ],
+    "keywords": ["Special Summon", "add to hand", "recover"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7322,12 +6588,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7337,12 +6599,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "During the Main Phase: You can target 1 \"Shining Brigade\" card in your GY; banish it, and if you do, Special Summon this card from your hand or GY. You can only use this effect of \"Shining Brigade - Loving Division\" once per turn. A \"Shining Brigade\" monster that has this card as material gains the following effect.\n● Once per turn: You can Set 1 \"Shining Brigade\" Trap from your Deck, GY, or banishment (that Set card can be activated this turn).",
-    "keywords": [
-      "target",
-      "banish",
-      "Special Summon",
-      "Set"
-    ],
+    "keywords": ["target", "banish", "Special Summon", "Set"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7360,12 +6617,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7375,11 +6628,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "If this card is Normal or Special Summoned: you can Special Summon 1 \"Shining Brigade\" monster from your hand. You cannot Special Summon monsters the turn you use this effect, except \"Shining Brigade\" monsters. You can only use this effect of \"Shining Brigade - Heartbeat Division\" once per turn. A \"Shining Brigade\" monster that has this card as material gains the following effect.\n● Once per turn, when your opponent activates a monster effect: You can detach 1 material from this card; banish that monster.",
-    "keywords": [
-      "Special Summon",
-      "detach",
-      "banish"
-    ],
+    "keywords": ["Special Summon", "detach", "banish"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7397,12 +6646,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7412,10 +6657,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "When a \"Shining Brigade\" monster is Special Summoned: You can Special Summon this card from your GY or banishment. You can only use this effect of \"Shining Brigade - Joyous Division\" once per turn. A \"Shining Brigade\" monster that has this card as material gains the following effect.\n● Once per turn, during the Main Phase (Quick Effect): You can roll a 6-sided die; banish cards from your opponent's GY up to half the number rolled (rounded up).",
-    "keywords": [
-      "Special Summon",
-      "banish"
-    ],
+    "keywords": ["Special Summon", "banish"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7433,12 +6675,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -7448,11 +6686,7 @@
     "atk": 1000,
     "def": 1000,
     "text": "During your Main Phase, you can Normal Summon/Set 1 \"Shining Brigade\" monster in addition to your Normal Summon/Set (You can only gain this effect once per turn). You can banish this card from your GY: Attach 1 \"Shining Brigade\" monster from your Deck or GY to a \"Shining Brigade\" Xyz Monster you control as material. You can only use this effect of \"Shining Brigade - Melody Division\" once per turn.",
-    "keywords": [
-      "Normal Summon",
-      "banish",
-      "attach as material"
-    ],
+    "keywords": ["Normal Summon", "banish", "attach as material"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7470,13 +6704,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Xyz",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Xyz", "Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": 2,
@@ -7509,13 +6738,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Xyz",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Xyz", "Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": 2,
@@ -7525,11 +6749,7 @@
     "atk": 2500,
     "def": 1000,
     "text": "2+ Level 2 \"Shining Brigade\" monsters\n(Quick Effect): You can detach 1 material from this card; draw 1 card. If this card is destroyed by battle or card effect: Special Summon \"Shining Brigade\" monsters from your GY or banishment up to the number of cards your opponent controls, but negate their effects. You can only use each effect of \"Shining Brigade Armada\" once per turn.",
-    "keywords": [
-      "detach",
-      "draw",
-      "Special Summon"
-    ],
+    "keywords": ["detach", "draw", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7547,14 +6767,8 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Xyz",
-      "Pendulum",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Xyz", "Pendulum", "Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": 2,
@@ -7588,28 +6802,18 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 1,
-    "linkArrows": [
-      "B"
-    ],
+    "linkArrows": ["R"],
     "scale": null,
     "atk": 200,
     "def": null,
     "text": "1 non-Link \"Shining Brigade\" monster\nWhile you control another \"Shining Brigade\" monster, this card cannot be targeted for attacks or by card effects. Once per turn, when a monster on the field declares an attack: Special Summon 1 \"Shining Brigade\" monster from your hand or Deck. You can only control 1 \"Shining Brigade - Companion Team\".",
-    "keywords": [
-      "cannot be targeted",
-      "Special Summon"
-    ],
+    "keywords": ["cannot be targeted", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7627,32 +6831,18 @@
     "archetype": "Shining Brigade",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 4,
-    "linkArrows": [
-      "T",
-      "B",
-      "L",
-      "R"
-    ],
+    "linkArrows": ["T", "B", "L", "R"],
     "scale": null,
     "atk": 3200,
     "def": null,
     "text": "2+ monsters, including a \"Shining Brigade\" monster\n\"Shining Brigade\" monsters cannot be destroyed by battle. When your opponent activates a monster effect or a Spell/Trap Card (Quick Effect): You can banish this card from your field until the End Phase; negate the activation, and if you do, banish it and all cards in your opponent's GY with the same name as that card. You can only use this effect of \"Shining Brigade - Absolute Supremacy\" once per turn.",
-    "keywords": [
-      "destroy protection",
-      "banish",
-      "negate"
-    ],
+    "keywords": ["destroy protection", "banish", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7681,11 +6871,7 @@
     "atk": null,
     "def": null,
     "text": "If you control no monsters: Special Summon 1 \"Shining Brigade\" monster from your Deck. You cannot Special Summon monsters the turn you activate this effect, except LIGHT Monsters. You can banish this card from your GY; add 1 \"Shining Brigade\" Spell/Trap from your Deck to your hand. You can only activate 1 \"Let's Go, Shining Brigade!\" effect per turn, and only once that turn.",
-    "keywords": [
-      "Special Summon",
-      "banish",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "banish", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7714,12 +6900,7 @@
     "atk": null,
     "def": null,
     "text": "\"Shining Brigade\" Spell/Trap Cards you control cannot be destroyed or banished while you control 2 or more \"Shining Brigade\" monsters. Once per turn: You can detach 1 material from a \"Shining Brigade\" Xyz Monster you control; attach 1 \"Shining Brigade\" monster from your hand or GY as material. If a \"Shining Brigade\" monster you control activates its effect: You can draw 1 card. You can only use this effect of \"Shining Brigade - Stand Together!\" once per turn.",
-    "keywords": [
-      "destroy protection",
-      "detach",
-      "attach as material",
-      "draw"
-    ],
+    "keywords": ["destroy protection", "detach", "attach as material", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7783,12 +6964,7 @@
     "atk": null,
     "def": null,
     "text": "When your opponent activates a Spell/Trap effect, or a monster effect on the field: You can return 1 \"Shining Brigade\" monster you control to the hand; negate that effect. During the End Phase: You can shuffle up to 3 cards from your GY or banishment into your Deck, then, if you shuffled at least 2 \"Shining Brigade\" cards with this effect, draw 1 card. You can only use each effect of \"Shining Brigade - Last Stand\" once per turn.",
-    "keywords": [
-      "negate",
-      "return to hand",
-      "shuffle into Deck",
-      "draw"
-    ],
+    "keywords": ["negate", "return to hand", "shuffle into Deck", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7806,12 +6982,8 @@
     "archetype": "Chrono-Saur",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Dinosaur"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Dinosaur"],
     "attribute": "EARTH",
     "level": 6,
     "rank": null,
@@ -7821,10 +6993,7 @@
     "atk": 2500,
     "def": 2100,
     "text": "If your opponent controls 2 or more monsters, you can Special Summon this card (from your hand). If this card is Special Summoned; You can add 1 \"Chrono-Saur\" Spell/Trap from your Deck to your hand. If this card is destroyed by card effect: You can Special Summon 1 \"Chrono-Saur\" monster from your hand or GY, except \"Chrono-Saur Brachio\". You can only use each effect of \"Chrono-Saur Brachio\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7842,12 +7011,8 @@
     "archetype": "Chrono-Saur",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Dinosaur"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Dinosaur"],
     "attribute": "EARTH",
     "level": 7,
     "rank": null,
@@ -7857,11 +7022,7 @@
     "atk": 2700,
     "def": 1800,
     "text": "During the Battle Phase, if a \"Chrono-Saur\" card or a Dinosaur monster in your hand or field was destroyed by card effect this turn (Quick Effect): You can Special Summon this card from your hand, but negate its effects. If this card is Special Summoned: You can target up to 2 cards your opponent control; destroy them. If this card is destroyed by card effect: You can Special Summon 1 \"Chrono-Saur\" monster from your hand or GY, except \"Chrono-Saur Dactylus\". You can only use each effect of \"Chrono-Saur Dactylus\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "target",
-      "destroy"
-    ],
+    "keywords": ["Special Summon", "target", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7879,12 +7040,8 @@
     "archetype": "Chrono-Saur",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Dinosaur"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Dinosaur"],
     "attribute": "EARTH",
     "level": 6,
     "rank": null,
@@ -7894,11 +7051,7 @@
     "atk": 2100,
     "def": 2500,
     "text": "This card can attack while in face-up Defense Position. If it does, apply its DEF for damage calculation. If you Special Summoned a \"Chrono-Saur\" or Dinosaur monster this turn: You can Special Summon this card from your hand or GY in Defense Position. When your opponent activates a card effect that targets a Dinosaur monster you control, or when your opponent targets your Dinosaur monster for an attack (Quick effect): You can destroy this card, then negate that attack or effect. You can only use each effect of \"Chrono-Saur Tricera\" once per turn.",
-    "keywords": [
-      "attack from defense",
-      "Special Summon",
-      "negate"
-    ],
+    "keywords": ["attack from defense", "Special Summon", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7916,12 +7069,8 @@
     "archetype": "Chrono-Saur",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Dinosaur"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Dinosaur"],
     "attribute": "EARTH",
     "level": 5,
     "rank": null,
@@ -7931,12 +7080,7 @@
     "atk": 2400,
     "def": 1900,
     "text": "You can discard this card; destroy 1 Dinosaur monster or 1 \"Chrono-Saur\" card you control, and if you do, draw 1 card, then shuffle 1 card from your hand into the Deck. If your opponent control 2 or more monsters: You can Special Summon this card from hand, then you can destroy 1 card in your hand or field. If this card is destroyed by card effect: You can Special Summon 1 \"Chrono-Saur\" monster from your hand or GY, except \"Chrono-Saur Stegian\". You can only use each effect of \"Chrono-Saur Stegian\" once per turn.",
-    "keywords": [
-      "discard",
-      "destroy",
-      "draw",
-      "Special Summon"
-    ],
+    "keywords": ["discard", "destroy", "draw", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -7954,12 +7098,8 @@
     "archetype": "Chrono-Saur",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Dinosaur"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Dinosaur"],
     "attribute": "EARTH",
     "level": 8,
     "rank": null,
@@ -7969,10 +7109,7 @@
     "atk": 3000,
     "def": 2100,
     "text": "During the Main Phase 1 or Battle Phase (Quick Effect): You can destroy 1 \"Chrono-Saur\" card or 1 Dinosaur monster you control, and if you do, Special Summon this card from hand. Destroy this card Summoned this way at the end of the Phase it was Summoned. When you declare an attack: You can Special Summon this card from your GY, but destroy this card at the end of the Battle Phase. You can only use each effect of \"Chrono-Saur Rex\" once per turn.",
-    "keywords": [
-      "destroy",
-      "Special Summon"
-    ],
+    "keywords": ["destroy", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8001,11 +7138,7 @@
     "atk": null,
     "def": null,
     "text": "When this card is activated: You can add 1 \"Chrono-Saur\" card from your Deck to your hand. For the rest of this turn, you cannot Special Summon monsters, except Dinosaur monsters. If your card is destroyed by battle or card effect: You can make your monsters gain 500 ATK/DEF until the end of your Battle Phase. You can only use the previous effects of \"Chrono-Saur Laplace Plesio\" once per turn. After damage calculation, if your Dinosaur monster battled an opponent's monster: You can destroy 1 card you control.",
-    "keywords": [
-      "add to hand",
-      "gain ATK/DEF",
-      "destroy"
-    ],
+    "keywords": ["add to hand", "gain ATK/DEF", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8034,11 +7167,7 @@
     "atk": null,
     "def": null,
     "text": "During your turn, if your opponent controls 2 or more monsters, you can activate this card from your hand. When your opponent activates a Spell/Trap Card or effect while you control a \"Chrono-Saur\" monster: Negate that activation, and if you do, you can destroy that card or 1 card in your hand or field. If this card is destroyed by card effect: You can draw 1 card. You can only use each effect of \"Chono-Saur Force\" once per turn.",
-    "keywords": [
-      "negate",
-      "destroy",
-      "draw"
-    ],
+    "keywords": ["negate", "destroy", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8067,11 +7196,7 @@
     "atk": null,
     "def": null,
     "text": "During your turn, if your opponent controls 2 or more monsters, you can activate this card from your hand. When your opponent activates a monster effect while you control a \"Chrono-Saur\" monster: Negate that effect, and if you do, you can destroy that card or 1 card in your hand or field. If this card is destroyed by card effect: You can draw 1 card. You can only use each effect of \"Chono-Saur Counter\" once per turn.",
-    "keywords": [
-      "negate",
-      "destroy",
-      "draw"
-    ],
+    "keywords": ["negate", "destroy", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8100,9 +7225,7 @@
     "atk": null,
     "def": null,
     "text": "Activate only if you control 2 or more Level 8 or higher WATER Fusion Monsters. For the rest of this turn, your opponent cannot Special Summon monsters from their hand, except WATER monsters. You can only activate 1 \"Aqua Whirlpool\" per turn.",
-    "keywords": [
-      "Special Summon"
-    ],
+    "keywords": ["Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8120,12 +7243,8 @@
     "archetype": "Eldora",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "LIGHT",
     "level": 3,
     "rank": null,
@@ -8135,11 +7254,7 @@
     "atk": 1500,
     "def": 1000,
     "text": "If you control \"Eldora, the Intergalactic Empire\", you can Special Summon this card (from your hand). You can only Special Summon \"Aquila, Zephorion's Predictor\" once per turn this way. If this card is Summoned: You can Set 1 \"Eldora\" and/or \"Verse IX\" Spell/Trap directly from your Deck or GY. If this card is destroyed by \"Eldora, the Intergalactic Empire\" or your opponent's card effect: You can add 1 monster that lists \"Eldora\" in its text from your GY to your hand, or if \"Eldora, the Intergalactic Empire\" is in your GY, you can add it from your Deck instead. You can only use each effect of \"Aquila, Zephorion's Predictor\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Set",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "Set", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8157,12 +7272,8 @@
     "archetype": "Eldora",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "LIGHT",
     "level": 5,
     "rank": null,
@@ -8172,11 +7283,7 @@
     "atk": 2100,
     "def": 1600,
     "text": "If you control \"Eldora, the Intergalactic Empire\": you can Special Summon this card (from your hand). You can only Special Summon \"Auriga of the Eldoran Empire\" once per turn this way. If this card is Summoned: You can draw 1 card, then place 1 card from your hand on the bottom of your Deck. If this card is destroyed by \"Eldora, the Intergalactic Empire\" or your opponent's card effect: You can add 1 \"Eldora\" Spell/Trap from your GY to your hand, or if \"Eldora, the Intergalactic Empire\" is in your GY, you can add it from your Deck instead. You can only use each effect of \"Auriga of the Eldoran Empire\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "draw",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "draw", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8194,12 +7301,8 @@
     "archetype": "Eldora",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "LIGHT",
     "level": 8,
     "rank": null,
@@ -8209,10 +7312,7 @@
     "atk": 2500,
     "def": 2000,
     "text": "If \"Eldora, the Intergalactic Empire\" is in your field or GY (Quick Effect): You can Special Summon this card from your hand. If \"Eldora, the Intergalactic Empire\" is in your GY, your opponent cannot declare an attack. If this card is destroyed by \"Eldora, the Intergalactic Empire\" or your opponent's card effect: You can declare 1 Monster Card name; cards with that name cannot be destroyed by battle or card effects until the end of this turn. You can only use each effect of \"Eridani, Squire of Zephorion Prime\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "destroy protection"
-    ],
+    "keywords": ["Special Summon", "destroy protection"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8241,11 +7341,7 @@
     "atk": null,
     "def": null,
     "text": "(This card is always treated as an \"Eldora\" card.)\nThis card is also treated as \"Eldora, the Intergalactic Empire\" while it is face-up on the field or in your GY. When this card is activated: Activate 1 \"Eldora, the Intergalactic Empire\" from your Deck, or, if it is already face-up on your field, add 1 monster from your Deck to your hand that lists \"Eldora\" in its text. When your opponent's card effect that would destroy your monster resolves, you can destroy this card you control.",
-    "keywords": [
-      "activate from Deck",
-      "add to hand",
-      "destroy protection"
-    ],
+    "keywords": ["activate from Deck", "add to hand", "destroy protection"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8274,10 +7370,7 @@
     "atk": null,
     "def": null,
     "text": "(This card is also treated as \"The Hallowed Scripts of the Ataxia\".)\nWhen your opponent activates a card effect: You can show 1 \"Dysmandr, the Depraevity of Worlds\" in your Extra Deck and choose 1 Effect Monster you control; Send 1 \"Extinction of Dysmandr\" from your Deck to the GY (but shuffle it into the Deck during the End Phase), and if you do, your opponent's activated card effect becomes the sent card's effect that Tributes a \"Protogenic Essence Token\" to activate.",
-    "keywords": [
-      "send to GY",
-      "change effect"
-    ],
+    "keywords": ["send to GY", "change effect"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8295,12 +7388,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 1,
     "rank": null,
@@ -8310,11 +7399,7 @@
     "atk": 100,
     "def": 100,
     "text": "(This card is always treated as an \"Aquamarine\" card.)\nIf you control a WATER monster, you can Special Summon this card (from your GY). You can only Special Summon \"Aqua Droplet\" once per turn this way. If this card is banished from your GY: You can target 1 \"Aquamarine\" Spell/Trap in your GY; shuffle it into the Deck, and if you do, draw 1 card. You can only use this effect of \"Aqua Droplet\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "shuffle into Deck",
-      "draw"
-    ],
+    "keywords": ["Special Summon", "shuffle into Deck", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8332,12 +7417,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 3,
     "rank": null,
@@ -8347,11 +7428,7 @@
     "atk": 0,
     "def": 1500,
     "text": "If you control an \"Aquamarine\" monster, you can Special Summon this card (from your hand). You can only Special Summon \"Aquamarine Moon Aurelia\" once per turn this way. You can only use each of the following effects of \"Aquamarine Moon Aurelia\" once per turn. If this card is Special Summoned: You can add 1 \"Aquamarine\" Spell/Trap from your Deck to your hand. If this card is banished from your GY: You can Fusion Summon 1 \"Aquamarine\" Fusion Monster from your Extra Deck, by banishing Fusion Materials listed on it from your field and/or GY.",
-    "keywords": [
-      "Special Summon",
-      "add to hand",
-      "Fusion Summon"
-    ],
+    "keywords": ["Special Summon", "add to hand", "Fusion Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8369,12 +7446,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 4,
     "rank": null,
@@ -8384,11 +7457,7 @@
     "atk": 0,
     "def": 1500,
     "text": "If this card is Normal or Special Summoned; You can add 1 \"Aquamarine\" monster from your Deck to your hand, except \"Aquamarine Plate Montipora\", also, for the rest of this turn after this effect resolves, you cannot Special Summon monsters from the Extra Deck, except WATER monsters. You can banish this card from your GY; Fusion Summon 1 WATER Fusion Monster from your Extra Deck, using monsters from your hand or field as material. You can only use each effect of \"Aquamarine Plate Montipora\" once per turn.",
-    "keywords": [
-      "add to hand",
-      "banish",
-      "Fusion Summon"
-    ],
+    "keywords": ["add to hand", "banish", "Fusion Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8406,12 +7475,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -8421,11 +7486,7 @@
     "atk": 1000,
     "def": 2500,
     "text": "If you control a WATER Aqua monster, you can Special Summon this card (from your hand). You can only Special Summon \"Aquamarine Pisaster Giga\" once per turn this way. You can only use each of the following effects of \"Aquamarine Pisaster Giga\" once per turn. You can Tribute this card; Special Summon 1 \"Aquamarine\" monster from your Deck, except \"Aquamarine Pisaster Giga\". If this card is banished from your GY: You can target 1 of your banished \"Aquamarine\" monsters, except \"Aquamarine Pisaster Giga\"; add it to your hand.",
-    "keywords": [
-      "Special Summon",
-      "Tribute",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "Tribute", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8443,12 +7504,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -8458,12 +7515,7 @@
     "atk": 1000,
     "def": 2500,
     "text": "If you control a WATER Aqua monster, you can Special Summon this card (from your GY). You can only Special Summon \"Aquamarine Asthenosoma\" once per turn this way. You can only use each of the following effects of \"Aquamarine Asthenosoma\" once per turn. You can discard this card; send 1 \"Aquamarine\" monster from your Deck to the GY, except \"Aquamarine Asthenosoma\". If this card is banished from your GY: You can target 1 of your Banished \"Aquamarine\" cards, except \"Aquamarine Asthenosoma\", return it to the GY.",
-    "keywords": [
-      "Special Summon",
-      "discard",
-      "send to GY",
-      "recover"
-    ],
+    "keywords": ["Special Summon", "discard", "send to GY", "recover"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8492,9 +7544,7 @@
     "atk": null,
     "def": null,
     "text": "Add 1 Level 4 or lower \"Aquamarine\" monster from your Deck to your hand. You cannot Special Summon monsters from the Extra Deck the turn you activate this card, except WATER monsters. You can only activate 1 \"Aquamarine: Aquamarine!\" per turn.",
-    "keywords": [
-      "add to hand"
-    ],
+    "keywords": ["add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8523,10 +7573,7 @@
     "atk": null,
     "def": null,
     "text": "Discard 1 card; add 1 Level 4 or lower WATER Aqua, Fish, or Sea Serpent monster from your Deck to your hand. You cannot Normal or Special Summon monsters the turn you use this effect, except WATER Monsters. You can only activate 1 \"Treasure of the Cosmic Ocean\" per turn.",
-    "keywords": [
-      "discard",
-      "add to hand"
-    ],
+    "keywords": ["discard", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8555,10 +7602,7 @@
     "atk": null,
     "def": null,
     "text": "(This card is always treated as an \"Aquamarine\" card.)\nFusion Summon 1 \"Aquamarine\" Fusion Monster from your Extra Deck, using 2 monsters from your hand, Deck, or field as Fusion Material. You cannot Special Summon monsters from the Extra Deck, except WATER Fusion Monsters, the turn you use this effect. During your Main Phase, except the turn this card was sent to the GY: you can banish this card from your GY; Fusion Summon \"Aquamarine\" Fusion Monster from your Extra Deck, by shuffling Fusion Materials listed on it into the Deck, from among your cards on the field, in your GY, and/or your face-up banished cards. You can only use each effect of \"Aqua Fusion\" once per turn.",
-    "keywords": [
-      "Fusion Summon",
-      "banish"
-    ],
+    "keywords": ["Fusion Summon", "banish"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8587,11 +7631,7 @@
     "atk": null,
     "def": null,
     "text": "During the Main Phase: You can activate 1 of these effects.\n● Target Spell/Trap Cards your opponent controls, up to the number of WATER Fusion Monsters you control with different names; destroy them.\n● Target monsters your opponent controls, up to the number of WATER Fusion Monsters you control with different names; return them to the hand.\nYou can use this effect of \"Aquamarine Bubble Surge\" once per turn.",
-    "keywords": [
-      "target",
-      "destroy",
-      "return to hand"
-    ],
+    "keywords": ["target", "destroy", "return to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8609,13 +7649,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -8625,10 +7660,7 @@
     "atk": 0,
     "def": 2000,
     "text": "2 \"Aquamarine\" monsters\nIf this card is Special Summoned: You can target 1 WATER Aqua monster in your GY or banishment, except \"Aquamarine Planktonites\"; Special Summon it. During your Main Phase: You can Fusion Summon 1 \"Aquamarine\" Fusion Monster from your Extra Deck, using monsters from your hand or field as material, including this card. You can only use each effect of \"Aquamarine Planktonites\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Fusion Summon"
-    ],
+    "keywords": ["Special Summon", "Fusion Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8646,13 +7678,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 6,
     "rank": null,
@@ -8685,13 +7712,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -8701,12 +7723,7 @@
     "atk": 2500,
     "def": 0,
     "text": "1 Level 7 or higher \"Aquamarine\" monster + 1 WATER Aqua monster\nIf you control a WATER Aqua monster, you can Special Summon this card (from your GY). You can only Special Summon \"Aquamarine Actinia\" once per turn this way. When a card or effect is activated, while you control another \"Aquamarine\" monster (Quick Effect): You can banish 1 WATER Aqua monster from your GY; negate the activation, and if you do, destroy that card. You can only use this effect of \"Aquamarine Actinia\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "banish",
-      "negate",
-      "destroy"
-    ],
+    "keywords": ["Special Summon", "banish", "negate", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8724,13 +7741,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -8740,10 +7752,7 @@
     "atk": 2800,
     "def": 0,
     "text": "1 \"Aquamarine\" Fusion monster + 1 \"Aquamarine\" monster\nDuring the Main Phase (Quick Effect): You banish 1 \"Aquamarine\" card from your GY; destroy 1 card your opponent controls. You can use this effect of \"Aquamarine Physalia\" a number of times per turn, up to the number of Level 7 or higher \"Aquamarine\" monsters you control, except \"Aquamarine Physalia\". If you control \"Aquamarine Glaucus\", your opponent cannot activate monster effects in response to this card's effect activation.",
-    "keywords": [
-      "banish",
-      "destroy"
-    ],
+    "keywords": ["banish", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8761,13 +7770,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 8,
     "rank": null,
@@ -8777,11 +7781,7 @@
     "atk": 3000,
     "def": 0,
     "text": "1 WATER Fusion Monster + 1 \"Aquamarine\" monster\nIf this card is Special Summoned: You can banish cards from your opponent's GY up to the number of \"Aquamarine\" monsters you control, except \"Aquamarine Glaucus\". You can only use this effect of \"Aquamarine Glaucus\" once per turn. (Quick Effect): You can target 1 monster on the field; reduce its ATK to 0, and if you do, this card gains ATK equal to half that monster's original ATK until the end of this turn. You can use this effect of \"Aquamarine Glaucus\" a number of times per turn, up to the number of Level 7 or higher \"Aquamarine\" monsters you control, except \"Aquamarine Glaucus\".",
-    "keywords": [
-      "banish",
-      "modify ATK",
-      "gain ATK"
-    ],
+    "keywords": ["banish", "modify ATK", "gain ATK"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8799,13 +7799,8 @@
     "archetype": "Aquamarine",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Aqua"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Aqua"],
     "attribute": "WATER",
     "level": 10,
     "rank": null,
@@ -8815,11 +7810,7 @@
     "atk": 4000,
     "def": 0,
     "text": "2 Level 7 or higher \"Aquamarine\" Fusion Monsters\nMust be Fusion Summoned. Unaffected by other card effects while \"Aquamarine Glaucus\" or \"Aquamarine Physalia\" is in your GY. During the Main Phase (Quick Effect): You can banish 1 \"Aquamarine\" Fusion Monster from your GY, except \"Aquamarine Reef Hapalochlaena\"; inflict 1000 damage to your opponent. You can use this effect of \"Aquamarine Reef Hapalochlaena\" a number of times per turn, up to the number of Level 8 or higher \"Aquamarine\" monsters you control, except \"Aquamarine Reef Hapalochlaena\".",
-    "keywords": [
-      "unaffected by card effects",
-      "banish",
-      "effect damage"
-    ],
+    "keywords": ["unaffected by card effects", "banish", "effect damage"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8837,12 +7828,8 @@
     "archetype": "C",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Insect"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Insect"],
     "attribute": "EARTH",
     "level": 4,
     "rank": null,
@@ -8852,10 +7839,7 @@
     "atk": 1500,
     "def": 300,
     "text": "If your opponent activates a monster effect that includes an effect that Special Summons a monster(s) (Quick Effect): You can Special Summon this card from your hand. If Summoned this way, while this card is face-up on the field, your opponent cannot banish cards. If this card is sent from the field to the GY: You can add 1 EARTH Insect monster with 1500 or less ATK from your Deck to your hand, except \"Hiding \"C\"\". You can only use each effect of \"Hiding \"C\"\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8873,12 +7857,8 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": 1,
     "rank": null,
@@ -8888,10 +7868,7 @@
     "atk": 1900,
     "def": 100,
     "text": "You can Special Summon this card (from your hand) to a zone a Link Monster points to. If this card is Special Summoned to a zone a Link Monster points to: Place 1 Current Counter on all Link Monsters that point to this card and follow the Link Arrows of those monsters, placing 1 Current Counter on each co-linked monster they point to, repeating the process until all Link Monsters you control with a Current Counter placed by this card's effect points to a Main Monster Zone(s) and no other co-linked monster, then move this card to 1 of those zones (if possible), and if you do, Special Summon 1 Thunder monster from your GY to one of those zones. You can only use this effect of \"Farad, the Purple Ohmen\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Counter"
-    ],
+    "keywords": ["Special Summon", "Counter"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8909,12 +7886,8 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": 4,
     "rank": null,
@@ -8924,10 +7897,7 @@
     "atk": 1800,
     "def": 1500,
     "text": "You can Special Summon this card (from your hand) to a zone a Link Monster points to. If this card is Special Summoned to a zone a Link Monster points to: Place 1 Current Counter on all Link monsters that point to this card and follow the Link Arrows of those monsters, placing 1 Current Counter on each co-linked monster they point to, repeating the process until all Link Monsters you control with a Current Counter placed by this card's effect points to a Main Monster Zone(s) and no other co-linked monster, then move this card to 1 of those zones (if possible), and if you do, Special Summon 1 Thunder monster from your hand to one of those zones. You can only use this effect of \"Volt, the Green Ohmen\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Counter"
-    ],
+    "keywords": ["Special Summon", "Counter"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8945,12 +7915,8 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": 4,
     "rank": null,
@@ -8960,11 +7926,7 @@
     "atk": 1700,
     "def": 1400,
     "text": "You can Special Summon this card (from your hand) to a zone a Link Monster points to. If this card is Special Summoned to a zone a Link Monster points to: Place 1 Current Counter on all Link Monsters that point to this card and follow the Link Arrows of those monsters, placing 1 Current Counter on each co-linked monster they point to, repeating the process until all Link Monsters you control with a Current Counter placed by this card's effect points to a Main Monster Zone(s) and no other co-linked monster, then move this card to 1 of those zones (if possible). During the Main Phase: you can add \"Ohmen\" monsters with different names whose total Levels equal the number of Current Counters placed by this card's effect from your Deck to your hand, also, for the rest of this turn, you cannot Special Summon monsters, except \"Ohmen\" monsters. You can only use each effect of \"Ampere, the Yellow Ohmen\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Counter",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "Counter", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -8982,12 +7944,8 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": 2,
     "rank": null,
@@ -8997,11 +7955,7 @@
     "atk": 1600,
     "def": 1200,
     "text": "You can Special Summon this card (from your hand) to a zone a Link Monster points to. If this card is Special Summoned to a zone a Link Monster points to: Place 1 Current Counter on all Link monsters that point to this card and follow the Link Arrows of those monsters, placing 1 Current Counter on each co-linked monster they point to, repeating the process until all Link Monsters you control with a Current Counter placed by this card's effect points to a Main Monster Zone(s) and no other co-linked monster, then move this card to 1 of those zones (if possible), and if you do, add 1 \"Ohmen\" Spell/Trap from your Deck to your hand. You can only use this effect of \"Siemens, the Blue Ohmen\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Counter",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "Counter", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9019,12 +7973,8 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": 3,
     "rank": null,
@@ -9034,11 +7984,7 @@
     "atk": 1300,
     "def": 1800,
     "text": "If you control no monster or all monsters you control are Thunder Monsters, you can Special Summon this card (from your hand). If this card is Special Summoned to a zone a Link Monster points to: Place 1 Current counter on all Link Monsters that point to this card and follow the Link Arrows of those monsters, placing 1 Current Counter on each co-linked monster they point to, repeating the process until all Link monsters you control with a Current Counter placed by this card's effect points to a Main Monster Zone(s) and no other co-linked monster, then move this card to 1 of those zones (if possible). During your Main Phase, you can send any number of \"Ohmen\" cards from your hand to the GY; Special Summon \"Ohmen\" monster(s) from your Extra Deck whose total Link Rating equal the number of cards sent to the GY to activate this effect, then place 1 Current Counter on them. You can only use each effect of \"Coulomb, the White Ohmen\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Counter",
-      "send to GY"
-    ],
+    "keywords": ["Special Summon", "Counter", "send to GY"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9056,12 +8002,8 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": 5,
     "rank": null,
@@ -9071,11 +8013,7 @@
     "atk": 2000,
     "def": 2000,
     "text": "You can reveal this card in your hand and 1 \"Ohmen\" monster in your Deck; Special Summon both monsters. You cannot Special Summon monsters the turn you use this effect except \"Ohmen\" monsters. If this card is used as Link Material: You can target 1 \"Ohmechanic\" monster you control; place 1 Current Counter on it for each \"Ohmen\" monster you control. You can only use each effect of \"Carcel, the Dark Ohmen\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Link Material",
-      "Counter"
-    ],
+    "keywords": ["Special Summon", "Link Material", "Counter"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9104,10 +8042,7 @@
     "atk": null,
     "def": null,
     "text": "If your monster becomes co-linked, place 1 Current Counter on it. If your opponent activates a Spell Card or effect, and you control an \"Ohmechanic\" monster: You can target 1 monster your opponents controls; place that target in your zone your co-linked monster points to, and take control of it. You can only activate 1 \"Ohmen Surge\" per turn",
-    "keywords": [
-      "Counter",
-      "take control"
-    ],
+    "keywords": ["Counter", "take control"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9125,29 +8060,18 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "L",
-      "R"
-    ],
+    "linkArrows": ["L", "TR"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "\"Ohmen\" monsters\nThis card's ATK become 0 while it has no Current Counters on it. This card gains effects based on the number of Current Counters on it.\n1+: During your Main Phase: You can Special Summon 1 \"Ohmen\" monster from your GY.\n2+: (Quick Effect): Move 1 monster on the controller's field that your co-linked monster points to.\n3+: (Quick Effect): You can remove all Current Counters from this card, then target 1 monster your opponents controls; place that target in your Main Monster Zone your co-linked monster points to.\nYou can only use each effect of \"Siemens, the Ohmechanic Conductor\" once per turn.",
-    "keywords": [
-      "Counter",
-      "Special Summon"
-    ],
+    "keywords": ["Counter", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9165,31 +8089,18 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "TL",
-      "BL"
-    ],
+    "linkArrows": ["L", "B"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "2 monsters including a Thunder monster\nThis card's ATK become 0 while it has no Current Counters on it. This card gains effects based on the number of Current Counters on it.\n1+: During the Main Phase: You can target 1 card your opponents control; banish it.\n2+: During the Main Phase: You can target 1 \"Ohmen\" card in your GY or banishment; add it to your hand.\n3+: (Quick effect): remove all Current Counters on this card and Link Monsters co-linked to it; banish up to 3 cards in your opponent GY.\nYou can only use each effect of \"Farad, the Ohmechanic Capacitor\" once per turn.",
-    "keywords": [
-      "Counter",
-      "target",
-      "banish",
-      "add to hand"
-    ],
+    "keywords": ["Counter", "target", "banish", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9207,31 +8118,18 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "TL",
-      "TR"
-    ],
+    "linkArrows": ["L", "T"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "2 monsters including an \"Ohmen\" monster\nThis card's ATK becomes 0 while it has no Current Counters on it. This card gains the following effects based on the number of Current Counters on it:\n1+: During your Main Phase: You can remove all Current Counters on this card; inflict 300 damage to your opponent for each.\n2+: \"Ohmechanic\" monsters you control gain 500 ATK.\n3+: During the Main Phase (Quick Effect): You can destroy 1 monster your opponent controls.\nYou can only use each effect of \"Volt, the Ohmechanic Chocker\" once per turn.",
-    "keywords": [
-      "Counter",
-      "effect damage",
-      "gain ATK",
-      "destroy"
-    ],
+    "keywords": ["Counter", "effect damage", "gain ATK", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9249,30 +8147,18 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "BL",
-      "BR"
-    ],
+    "linkArrows": ["BL", "BR"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "2 Thunder monsters including an \"Ohmen\" monster\nThis card ATK become 0 while it has no Current Counters on it. This card gains effects based on the number of Current Counters on it.\n1+: You can move 1 Link monster you controls to another of your Main Monster zones, then place 1 Current Counter on it.\n2+: During your Main Phase: you can add 1 \"Ohmen\" Spell/Trap card from your Deck yo your hand.\n3+: During the Main Phase (Quick Effect): You can remove all Current Counters from this card; immediately after this effect resolves, Link Summon 1 \"Ohmen\" monster from your Extra Deck using monsters you control as material.\nYou can only use each effect of \"Coulomb, the Ohmechanic Charger\" once per turn.",
-    "keywords": [
-      "Counter",
-      "add to hand",
-      "Link Summon"
-    ],
+    "keywords": ["Counter", "add to hand", "Link Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9285,36 +8171,23 @@
   {
     "id": "CARD-00297",
     "name": "Ampere, the Ohmechanic Intensity",
-    "image": "/assets/cards/Ampere_Link.jpg",
+    "image": "/assets/cards/Ampere,_the_Ohmechanic_Intensity.jpeg",
     "set": "DOTE-127 Dawn of the Elements",
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "TR",
-      "BR"
-    ],
+    "linkArrows": ["TL", "R"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "2 Thunder monsters including an \"Ohmen\" monster\nThis card's ATK become 0 while it has no Current Counters on it. This card gains the following effects based on the number of Current Counters on it:\n1+: During your Main Phase: You can add 1 \"Ohmen\" monster from your Deck to your hand, then discard 1 card.\n2+: Place 1 Current Counter on each monster this card is co-linked to.\n3+: \"Ohmechanic\" monsters co-linked to this card cannot be destroyed by battle or card effects.\nYou can only use each effect of \"Ampere, the Ohmechanic Intensity\" once per turn.",
-    "keywords": [
-      "Counter",
-      "add to hand",
-      "discard",
-      "destroy protection"
-    ],
+    "keywords": ["Counter", "add to hand", "discard", "destroy protection"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9332,34 +8205,18 @@
     "archetype": "Ohmen",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Thunder"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Thunder"],
     "attribute": "LIGHT",
     "level": null,
     "rank": null,
     "linkRating": 5,
-    "linkArrows": [
-      "T",
-      "L",
-      "R",
-      "BL",
-      "B"
-    ],
+    "linkArrows": ["T", "L", "R", "BL", "B"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "3+ monsters including an \"Ohmechanic\" monster\nIf this card is Link Summoned, You can Special Summon 1 \"Ohmen\" monster from your GY. This card's ATK is doubled while it has a Current Counter on it. If this card becomes co-linked, place Current Counters equal to the combined Link Ratings of all monsters co-linked to this card on this card, and all monsters you control that are co-linked to this card. When your opponent activates a card or effect (Quick Effect): You can remove all Current Counters on your field (min 5); destroy all monsters your opponent controls. You can only use each effect of \"Carcel, the Ohmechanic Light\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Counter",
-      "modify ATK",
-      "destroy"
-    ],
+    "keywords": ["Special Summon", "Counter", "modify ATK", "destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9388,13 +8245,7 @@
     "atk": null,
     "def": null,
     "text": "Activate 1 of these effects;\n● Target 1 Effect Monster your opponent controls; negate its effects, then you can remove 2 Current Counters from the field, and if you do destroy 1 card your opponents controls.\n● Special Summon 1 \"Ohmen\" monster from your Deck.\nYou can only activate 1 \"Ohmen Powerload\" per turn, and if you do, you cannot Special Summon monsters, except Thunder monsters.",
-    "keywords": [
-      "target",
-      "negate",
-      "Counter",
-      "destroy",
-      "Special Summon"
-    ],
+    "keywords": ["target", "negate", "Counter", "destroy", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9423,11 +8274,7 @@
     "atk": null,
     "def": null,
     "text": "When this card is activated: You can Special Summon 1 Thunder monster from your hand, or, if you control an \"Ohmechanic\" monster, you can Special Summon 1 \"Ohmen\" monster from your GY instead. Co-linked monsters you controls with a Current Counter cannot be targeted by your opponent card effect. Once per turn: You can move 1 monster you control to another Main Monster zone, then place 1 Current Counter on all co-linked monsters you control. You can only activate 1 \"Ohmen Beacon\" per turn.",
-    "keywords": [
-      "Special Summon",
-      "cannot be targeted",
-      "Counter"
-    ],
+    "keywords": ["Special Summon", "cannot be targeted", "Counter"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9445,12 +8292,8 @@
     "archetype": "Altergeist",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "DARK",
     "level": 4,
     "rank": null,
@@ -9460,11 +8303,7 @@
     "atk": 1400,
     "def": 1500,
     "text": "If you Special Summon an \"Altergeist\" monster: You can Special Summon this card from your hand or GY. If Summoned from the GY this way, banish this card when it leaves the field. If this card is Normal or Special Summoned: You can add 1 Trap from your Deck to your hand that lists \"Altergeist\" in its text. You can only use each effect of \"Altergeist Pipesiren\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "banish",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "banish", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9482,31 +8321,18 @@
     "archetype": "Altergeist",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 2,
-    "linkArrows": [
-      "B",
-      "R"
-    ],
+    "linkArrows": ["B", "BR"],
     "scale": null,
     "atk": 2000,
     "def": null,
     "text": "1+ \"Altergeist\" monsters\nThis card can only be Special Summoned by a Link Summon. You can only Link Summon 1 \"Altergeist Regissae\" per turn. Once per turn (Quick Effect): You can Tribute 1 \"Altergeist\" monster from your hand or field; negate the effects of 1 face-up card on the field. If this card is sent from field to GY: You can target 1 \"Altergeist\" Trap in your GY; Set it to your field. You can only use each effect of \"Altergeist Regissae\" once per turn.",
-    "keywords": [
-      "Link Summon",
-      "Tribute",
-      "negate",
-      "Set"
-    ],
+    "keywords": ["Link Summon", "Tribute", "negate", "Set"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9524,13 +8350,8 @@
     "archetype": "Altergeist",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "FIRE",
     "level": 8,
     "rank": null,
@@ -9540,12 +8361,7 @@
     "atk": 2500,
     "def": 2100,
     "text": "1 Tuner + 1 non-Tuner monster\nIf this card is Synchro Summoned: You can target 1 \"Altergeist\" monster in your GY; Special Summon it in Defense Position. When your opponent activates a monster effect (Quick Effect): You can Tribute 1 \"Altergeist\" monster; negate that effect, then add 1 Trap from your GY to your hand that lists \"Altergeist\" in its text. You can only use each effect of \"Altergeist Ifritware\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "Tribute",
-      "negate",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "Tribute", "negate", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9563,13 +8379,8 @@
     "archetype": "NATURE",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Dragon"],
     "attribute": "WIND",
     "level": 10,
     "rank": null,
@@ -9579,10 +8390,7 @@
     "atk": 0,
     "def": 4000,
     "text": "1 Tuner monster + 1+ non-Tuner Synchro Monsters\nIf this card is Synchro Summoned using a NATURE Tuner as material: You can Special Summon 1 Level 4 or lower NATURE monster from your Deck or GY. You can only use this effect of \"Dragon Protector of Nature\" once per turn. Your opponent cannot target NATURE monsters you control with card effects. All monsters your opponent controls must attack this card, if able.",
-    "keywords": [
-      "Special Summon",
-      "cannot be targeted"
-    ],
+    "keywords": ["Special Summon", "cannot be targeted"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9611,9 +8419,7 @@
     "atk": null,
     "def": null,
     "text": "Add 1 Level 4 or lower Galaxy or Celestial Warrior monster from your Deck to your hand. You can only activate 1 \"Advent of Cosmic Beings\" per turn.",
-    "keywords": [
-      "add to hand"
-    ],
+    "keywords": ["add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9631,33 +8437,18 @@
     "archetype": "Pendulum",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Link",
-      "Effect"
-    ],
-    "monsterType": [
-      "Spellcaster"
-    ],
+    "cardTypes": ["Link", "Effect"],
+    "monsterType": ["Spellcaster"],
     "attribute": "DARK",
     "level": null,
     "rank": null,
     "linkRating": 5,
-    "linkArrows": [
-      "T",
-      "B",
-      "L",
-      "R",
-      "BR"
-    ],
+    "linkArrows": ["T", "B", "L", "R", "BR"],
     "scale": null,
     "atk": 3200,
     "def": null,
     "text": "3+ Effect Monsters, including a Synchro, Fusion, or Xyz Pendulum Monster\nIf this card is Link Summoned: You can destroy all Spell and Trap Cards on the field, then take 1 Pendulum Monster from your Deck and Pendulum Monster from your face-up Extra Deck with a different name and place them in your Pendulum Zones. You can activate this effect; Immediately after this effect resolves, Pendulum Summon a Pendulum Monster(s) in Defense Position. You can only use each effect of \"Transcend the Pendulum\" once per turn.",
-    "keywords": [
-      "destroy",
-      "place in Pendulum Zone",
-      "Pendulum Summon"
-    ],
+    "keywords": ["destroy", "place in Pendulum Zone", "Pendulum Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9686,9 +8477,7 @@
     "atk": null,
     "def": null,
     "text": "When your opponent activates a card or effect, or a monster declares an attack: Destroy that card, then you can destroy 1 Attack Position monster your opponent controls. You can only activate 1 \"Striking Mirror Force\" per turn.",
-    "keywords": [
-      "destroy"
-    ],
+    "keywords": ["destroy"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9706,13 +8495,8 @@
     "archetype": null,
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Synchro",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fairy"
-    ],
+    "cardTypes": ["Synchro", "Effect"],
+    "monsterType": ["Fairy"],
     "attribute": "LIGHT",
     "level": 12,
     "rank": null,
@@ -9722,10 +8506,7 @@
     "atk": 4800,
     "def": 3700,
     "text": "3 Tuners with different Attributes + 3 non-Tuners with different Attributes\nThis card's Attribute is also treated as WIND, WATER, FIRE, EARTH, and DARK while it is face-up on the field. If this card is Synchro Summoned using 6 monsters with different Attributes, it gains the following effect:\n● Once per turn (Quick Effect): You can banish 1 monster from your GY; banish all monsters in your opponents field and GY that have the same Attribute as the banished monster.\nUnaffected by the activated effects of monsters your opponent controls that have the same Attribute as other monsters you controls.",
-    "keywords": [
-      "banish",
-      "unaffected by card effects"
-    ],
+    "keywords": ["banish", "unaffected by card effects"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9743,13 +8524,8 @@
     "archetype": "Kuriboh",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Fiend"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Fiend"],
     "attribute": "LIGHT",
     "level": 1,
     "rank": null,
@@ -9759,11 +8535,7 @@
     "atk": 100,
     "def": 100,
     "text": "When your opponent's monster declares an attack: You can Special Summon this card and 1 Level 1 monster from your hand or GY, and if you do, negate that attack. You can only use this effect of \"Yummy Kuriboh\" once per turn. Level 1 monsters cannot be destroyed by battle.",
-    "keywords": [
-      "Special Summon",
-      "negate",
-      "destroy protection"
-    ],
+    "keywords": ["Special Summon", "negate", "destroy protection"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9781,13 +8553,8 @@
     "archetype": null,
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Xyz",
-      "Effect"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Xyz", "Effect"],
+    "monsterType": ["Dragon"],
     "attribute": "LIGHT",
     "level": null,
     "rank": 7,
@@ -9797,11 +8564,7 @@
     "atk": 2500,
     "def": 2000,
     "text": "2+ Level 7 monsters\nYou can also Xyz Summon this card by using 1 monster you control and 1 face-up Spell/Trap your opponent owns (even if you do not control it). (Transfer its materials to this card.) If Summoned this way, you cannot Normal or Special Summon monsters for the rest of this turn. Once per turn (Quick Effect): You can detach 1 material from this card; this card is unaffected by your opponent's Spell/Trap Cards and effects until the end of this turn.",
-    "keywords": [
-      "Xyz Summon",
-      "detach",
-      "unaffected by card effects"
-    ],
+    "keywords": ["Xyz Summon", "detach", "unaffected by card effects"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9819,12 +8582,8 @@
     "archetype": "Phlogiston Dragon",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Pyro"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Pyro"],
     "attribute": "FIRE",
     "level": 4,
     "rank": null,
@@ -9834,13 +8593,7 @@
     "atk": 900,
     "def": 1500,
     "text": "If you control a FIRE Dragon monster, you can Special Summon this card (from your GY). You can only Special Summon \"Devotee of Fire\" once per turn this way. You can only use each of the following effects of \"Devotee of Fire\" once per turn. If this card is Normal or Special Summoned: You can send 1 Dragon monster from your Extra Deck to the GY. Set 1 Spell/Trap that lists \"Phlogiston Dragon\" in its text directly from your Deck or GY. When your opponent activates a Spell/Trap Card or effect, while you control a \"Phlogiston Dragon\" (Quick Effect): You can Tribute this card; negate that activation.",
-    "keywords": [
-      "Special Summon",
-      "send to GY",
-      "Set",
-      "Tribute",
-      "negate"
-    ],
+    "keywords": ["Special Summon", "send to GY", "Set", "Tribute", "negate"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9858,12 +8611,8 @@
     "archetype": "Phlogiston Dragon",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Beast-Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Beast-Warrior"],
     "attribute": "FIRE",
     "level": 5,
     "rank": null,
@@ -9873,12 +8622,7 @@
     "atk": 1200,
     "def": 1800,
     "text": "If you control no monsters, you can Special Summon this card (from your hand) by sending 1 Dragon monster from your Extra Deck to the GY. If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except FIRE monsters. If this card is Normal or Special Summoned: You can send 1 Spell that lists \"Phlogiston Dragon\" in its text from your Deck to the GY, then discard 1 card; this effect becomes that Spell Card's effect when that card is activated. You can only use this effect of \"Shaman of Fire\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "send to GY",
-      "discard",
-      "copy effect"
-    ],
+    "keywords": ["Special Summon", "send to GY", "discard", "copy effect"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9896,12 +8640,8 @@
     "archetype": "Phlogiston Dragon",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Warrior"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Warrior"],
     "attribute": "FIRE",
     "level": 7,
     "rank": null,
@@ -9945,11 +8685,7 @@
     "atk": null,
     "def": null,
     "text": "Fusion Summon 1 FIRE Dragon monster from your GY or Extra Deck, using monsters from your hand or field as Fusion Material and/or by shuffling the required Fusion Materials into the Deck, from your monsters in the GY, then pay any number of LP in multiples of 300. You can only use the following effect of \"Phlogistic Uprising!\" once per turn. You can shuffle 1 \"Phlogiston Dragon\" from your GY into the Deck; Set this card from your GY to your field, but banish it when it leaves the field.",
-    "keywords": [
-      "Fusion Summon",
-      "pay LP",
-      "Set"
-    ],
+    "keywords": ["Fusion Summon", "pay LP", "Set"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -9978,12 +8714,7 @@
     "atk": null,
     "def": null,
     "text": "Inflict damage to your opponent equal to half the LP you paid this turn, then, if you control a FIRE Dragon monster you can make all FIRE monsters you currently control gain ATK equal to half the damage inflicted. If you pay LP while this card is in your GY and you control a \"Phlogiston Dragon\": You can Set this card, but banish it when it leaves the field. You can only use each effect of \"Phlogistic Ignition\" once per turn.",
-    "keywords": [
-      "effect damage",
-      "gain ATK",
-      "pay LP",
-      "Set"
-    ],
+    "keywords": ["effect damage", "gain ATK", "pay LP", "Set"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10012,12 +8743,7 @@
     "atk": null,
     "def": null,
     "text": "When you activate this card, you can also pay any number of LP in multiples of 300; apply 1 of these effects.\n● Make 1 \"Phlogiston Dragon\" you control gain 1 additional attack during the Battle Phase this turn for every monster your opponent controls with a lower ATK than it.\n● For the rest of this turn, monsters your opponent controls must attack 1 \"Phlogiston Dragon\" you currently control (your choice), if able.\nYou can banish this card from your GY, then target 1 FIRE monster in your GY; Special Summon it in Defense Position. You can only use 1 effect of \"Phlogiston's Wake\" per turn and only once that turn.",
-    "keywords": [
-      "pay LP",
-      "multi-attack",
-      "banish",
-      "Special Summon"
-    ],
+    "keywords": ["pay LP", "multi-attack", "banish", "Special Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10035,13 +8761,8 @@
     "archetype": "Phlogiston Dragon",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Dragon"],
     "attribute": "FIRE",
     "level": 8,
     "rank": null,
@@ -10074,13 +8795,8 @@
     "archetype": "Phlogiston Dragon",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Fusion",
-      "Effect"
-    ],
-    "monsterType": [
-      "Dragon"
-    ],
+    "cardTypes": ["Fusion", "Effect"],
+    "monsterType": ["Dragon"],
     "attribute": "FIRE",
     "level": 10,
     "rank": null,
@@ -10090,10 +8806,7 @@
     "atk": 3300,
     "def": 2700,
     "text": "1 Level 8 \"Phlogiston Dragon\" + 2 FIRE monsters, except \"Phlogiston Dragon\"\nThis card's name becomes \"Phlogiston Dragon\" while face-up on the field and in the GY. If this card is Fusion Summoned: You can destroy cards your opponent controls for every 900 LP you paid this turn while you controlled a \"Phlogiston Dragon\". If this card is sent to the GY: You can choose 3 monsters that lists \"Phlogiston Dragon\" in its text in your Deck or Extra Deck and 1 Phlogiston Dragon you control (if any); send them to the GY, but they cannot activate their effects. You can only use each effect of \"Phlogistic Scorching Dragon Horde\" once per turn.",
-    "keywords": [
-      "destroy",
-      "send to GY"
-    ],
+    "keywords": ["destroy", "send to GY"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10122,11 +8835,7 @@
     "atk": null,
     "def": null,
     "text": "Declare 1 card name; roll a six-sided die, then excavate cards from the top of your deck equal to the result, then add 1 excavated card with the declared name to your hand. If you did not add any card by this effect, you lose 2000 LP.",
-    "keywords": [
-      "excavate",
-      "add to hand",
-      "lose LP"
-    ],
+    "keywords": ["excavate", "add to hand", "lose LP"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10155,11 +8864,7 @@
     "atk": null,
     "def": null,
     "text": "Target 5 Spell/Trap Cards in your GY; shuffle all 5 into the Deck, then draw 2 cards. You cannot activate monster effects the turn you use this effect.",
-    "keywords": [
-      "target",
-      "shuffle into Deck",
-      "draw"
-    ],
+    "keywords": ["target", "shuffle into Deck", "draw"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10188,10 +8893,7 @@
     "atk": null,
     "def": null,
     "text": "At the start of your Main Phase 1: Declare the name of 1 monster you do not control; for the rest of this turn, the activation of your cards and effects that include an effect that Summons a monster with that name cannot be negated, also your opponent cannot activate cards or effects when that monster is Summoned.",
-    "keywords": [
-      "negate",
-      "Summon"
-    ],
+    "keywords": ["negate", "Summon"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10209,13 +8911,8 @@
     "archetype": null,
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Tuner",
-      "Effect"
-    ],
-    "monsterType": [
-      "Cyberse"
-    ],
+    "cardTypes": ["Tuner", "Effect"],
+    "monsterType": ["Cyberse"],
     "attribute": "LIGHT",
     "level": 1,
     "rank": null,
@@ -10225,10 +8922,7 @@
     "atk": 0,
     "def": 0,
     "text": "If you Link Summoned a monster this turn using a Normal Monster: You can Special Summon this card from your hand to your zone a Link Monster points to. You can banish 1 Link Monster from your GY; Special Summon Normal Monsters from your GY up to the Link-Rating of the banished monster. You can only use each effect of \"Pixie Bot\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "banish"
-    ],
+    "keywords": ["Special Summon", "banish"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10246,12 +8940,8 @@
     "archetype": "Chrono-Saur",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect"
-    ],
-    "monsterType": [
-      "Dinosaur"
-    ],
+    "cardTypes": ["Effect"],
+    "monsterType": ["Dinosaur"],
     "attribute": "EARTH",
     "level": 4,
     "rank": null,
@@ -10261,10 +8951,7 @@
     "atk": 1800,
     "def": 900,
     "text": "If your opponent controls 2 or more monsters, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned: You can add 1 \"Chrono-Saur\" monster from your Deck to your hand. If this card is destroyed by card effect: You can Special Summon 1 \"Chrono-Saur\" monster from your hand or GY, except \"Chrono-Saur Raptor\". You can only use each effect of \"Chrono-Saur Raptor\" once per turn.",
-    "keywords": [
-      "Special Summon",
-      "add to hand"
-    ],
+    "keywords": ["Special Summon", "add to hand"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10293,11 +8980,7 @@
     "atk": null,
     "def": null,
     "text": "Add 1 Level 4 or lower \"Crying Chaos\" monster from your Deck to your hand. You can banish this card from your GY; take 1 Zombie Tuner monster from your GY or banishment and either add it to your hand or place it on the bottom of your Deck. You can only use each effect of \"Light Within the Crying Chaos\" once per turn.",
-    "keywords": [
-      "add to hand",
-      "banish",
-      "recover"
-    ],
+    "keywords": ["add to hand", "banish", "recover"],
     "legal": {
       "semiLimited": false,
       "limited": false,
@@ -10326,11 +9009,7 @@
     "atk": null,
     "def": null,
     "text": "Target 2 Zombie monsters with the same Level that are banished: Special Summon them, but place them on the bottom of the deck when they leave the field. You can only activate 1 \"A Throne of Crying Chaos\" per turn.",
-    "keywords": [
-      "target",
-      "Special Summon",
-      "recover"
-    ],
+    "keywords": ["target", "Special Summon", "recover"],
     "legal": {
       "semiLimited": false,
       "limited": false,

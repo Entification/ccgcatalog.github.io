@@ -1,17 +1,18 @@
 [
   {
     "date": "2025-05-01",
-    "title": "CMOG Cosmic Origins",
-    "link": "#"
+    "title": "CMOG Cosmic Origins Released",
+    "link": "/releases?set=CMOG"
   },
   {
     "date": "2025-01-17",
-    "title": "TATA Tainted Tales",
-    "link": "#"
+    "title": "TATA Tainted Tales Released",
+    "link": "/releases?set=TATA"
   },
   {
-    "date": "2025-05-01",
-    "title": "CMOG Cosmic Origins",
-    "link": "#"
+    "date": "2025-07-22",
+    "title": "DOTE Dawn of the Elements Released",
+    "link": "/releases?set=DOTE"
   }
 ]
+

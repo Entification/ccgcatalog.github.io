@@ -1,2 +1,6 @@
-export const withBase = (p: string) =>
-  new URL(p.startsWith('/') ? p.slice(1) : p, import.meta.env.BASE_URL).toString()
+export const withBase = (p: string) => {
+  const base = (import.meta.env.BASE_URL || "/").trim();
+  const baseClean = base.endsWith("/") ? base.slice(0, -1) : base;
+  const rel = (p || "").replace(/^\/+/, "");
+  return `${baseClean}/${rel}`;
+};

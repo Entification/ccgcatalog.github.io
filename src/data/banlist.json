@@ -7,13 +7,8 @@
     "archetype": "Stardrake",
     "category": "Monster",
     "icon": null,
-    "cardTypes": [
-      "Effect",
-      "Xyz"
-    ],
-    "monsterType": [
-      "Machine"
-    ],
+    "cardTypes": ["Effect", "Xyz"],
+    "monsterType": ["Machine"],
     "attribute": "DARK",
     "level": null,
     "rank": 10,

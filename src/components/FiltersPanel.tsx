@@ -1,380 +1,452 @@
-import { useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
-import useCards from '../hooks/useCards'
-import clsx from 'clsx'
+// src/components/FiltersPanel.tsx
+import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import useCards from "../hooks/useCards";
 
-const CATEGORY = ['Monster', 'Spell', 'Trap'] as const
-const ICONS = ['Normal','Quick-Play','Field','Equip','Continuous','Counter','Ritual'] as const
-const CARD_TYPES = ['Normal','Effect','Flip','Spirit','Tuner','Pendulum','Fusion','Synchro','Xyz','Link'] as const
-const MONSTER_TYPES = [
-  'Dragon','Spellcaster','Warrior','Beast','Beast-Warrior','Aqua','Machine','Fairy','Fiend','Zombie','Rock','Plant',
-  'Psychic','Thunder','Pyro','Reptile','Sea Serpent','Wyrm','Dinosaur','Cyberse','Illusion','Creator God'
-] as const
-const ATTRIBUTES = ['LIGHT','DARK','EARTH','WATER','FIRE','WIND','DIVINE'] as const
-const LEGAL = ['legal','semi','limited','banned'] as const
+const ATTRS = ["DARK", "LIGHT", "EARTH", "WATER", "FIRE", "WIND", "DIVINE"];
+const ICONS = ["Equip", "Field", "Quick-Play", "Ritual", "Continuous", "Counter", "Normal"];
+const CARD_TYPES = [
+  "Normal","Effect","Ritual","Fusion","Synchro","Xyz","Toon",
+  "Spirit","Union","Gemini","Tuner","Flip","Pendulum","Link",
+];
+const LEVELS = Array.from({ length: 14 }, (_, i) => i);      // 0..13
+const SCALES = Array.from({ length: 13 }, (_, i) => i + 1);   // 1..13
+const LINK_RATINGS = [1, 2, 3, 4, 5, 6];
 
-const ARROWS = ['T','TR','R','BR','B','BL','L','TL'] as const
-type ArrowCode = typeof ARROWS[number]
+// 3×3 keypad with a blank center
+const ARROWS_GRID: (string | null)[] = [
+  "TL", "T",  "TR",
+  "L",  null, "R",
+  "BL", "B",  "BR",
+];
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+// compact chip
+function Chip({
+  active,
+  onClick,
+  children,
+  title,
+}: {
+  active?: boolean;
+  onClick?: () => void;
+  children: React.ReactNode;
+  title?: string;
+}) {
+  const base =
+    "px-2.5 py-1 rounded-md border text-xs leading-5 whitespace-nowrap transition select-none";
+  const on = "bg-accent text-white border-accent";
+  const off = "bg-neutral-900 text-neutral-200 border-neutral-700 hover:border-neutral-500";
   return (
-    <div className="space-y-2">
-      <div className="text-[12px] font-medium text-neutral-300 tracking-wide">{title}</div>
+    <button type="button" title={title} onClick={onClick} className={`${base} ${active ? on : off}`}>
       {children}
-    </div>
-  )
+    </button>
+  );
 }
 
-function Select({
-  value, onChange, options, placeholder='Select…',
+// uniform section (title + optional clear)
+function Section({
+  title,
+  onClear,
+  children,
+  fixedHeight = false,
 }: {
-  value: string | string[]; onChange: (v: string | string[]) => void;
-  options: string[]; placeholder?: string;
+  title: string;
+  onClear?: () => void;
+  children: React.ReactNode;
+  /** when true, body gets fixed height with scroll for symmetry */
+  fixedHeight?: boolean;
 }) {
   return (
-    <select
-      className="bg-neutral-800 border border-neutral-700 rounded-lg px-2.5 py-1.5 text-sm w-full"
-      value={Array.isArray(value) ? (value[0] ?? '') : (value || '')}
-      onChange={e => onChange(e.target.value)}
-    >
-      <option value="">{placeholder}</option>
-      {options.map(o => <option key={o} value={o}>{o}</option>)}
-    </select>
-  )
-}
-
-function MultiChips({
-  value, onChange, options,
-}: {
-  value: string[]; onChange: (v: string[]) => void; options: string[];
-}) {
-  const toggle = (opt: string) => {
-    onChange(value.includes(opt) ? value.filter(x=>x!==opt) : [...value, opt])
-  }
-  return (
-    <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-1.5">
-      {options.map(opt => {
-        const active = value.includes(opt)
-        return (
+    <section className="rounded-xl border border-neutral-800 bg-neutral-900/70 p-3">
+      <div className="mb-2 flex items-center justify-between">
+        <h3 className="font-medium text-sm text-neutral-200">{title}</h3>
+        {onClear && (
           <button
-            key={opt}
+            className="text-xs text-neutral-400 hover:underline"
+            onClick={onClear}
             type="button"
-            onClick={()=>toggle(opt)}
-            className={clsx(
-              'px-2 py-1 text-[12px] rounded-md border transition select-none truncate',
-              active
-                ? 'bg-accent/20 border-accent/60 text-accent-200'
-                : 'bg-neutral-800 border-neutral-700 text-neutral-300 hover:bg-neutral-700'
-            )}
-            title={opt}
           >
-            {opt}
+            clear
           </button>
-        )
-      })}
-    </div>
-  )
-}
-
-function RangeWithToggle({
-  label, min=0, max, step=1,
-  values, onChange,
-  enabled, onToggle
-}: {
-  label: string; min?: number; max: number; step?: number;
-  values: [number|'', number|'']; onChange: (v:[number|'', number|''])=>void;
-  enabled: boolean; onToggle: (v:boolean)=>void;
-}) {
-  const [lo, hi] = values
-  return (
-    <div className="grid grid-cols-[auto,1fr,auto] items-center gap-2">
-      <label className="flex items-center gap-2 text-[11px] text-neutral-400 w-16">
-        <input
-          type="checkbox"
-          checked={enabled}
-          onChange={e=>onToggle(e.target.checked)}
-          className="accent-accent"
-        />
-        {label}
-      </label>
-
-      <div className={clsx("flex items-center gap-1.5", !enabled && "opacity-40 pointer-events-none")}>
-        <input
-          type="range" min={min} max={max} step={step}
-          value={lo === '' ? min : Number(lo)}
-          onChange={e=> onChange([Number(e.target.value), hi])}
-          className="w-full"
-        />
-        <input
-          type="range" min={min} max={max} step={step}
-          value={hi === '' ? max : Number(hi)}
-          onChange={e=> onChange([lo, Number(e.target.value)])}
-          className="w-full"
-        />
+        )}
       </div>
-
-      <div className={clsx("flex items-center gap-1", !enabled && "opacity-40 pointer-events-none")}>
-        <input
-          className="w-14 bg-neutral-800 border border-neutral-700 rounded px-2 py-1 text-xs"
-          value={lo}
-          onChange={e=>{
-            const v = e.target.value; onChange([v===''? '': Number(v), hi])
-          }}
-          placeholder={`${min}`}
-        />
-        <span className="text-neutral-500 text-xs">–</span>
-        <input
-          className="w-14 bg-neutral-800 border border-neutral-700 rounded px-2 py-1 text-xs"
-          value={hi}
-          onChange={e=>{
-            const v = e.target.value; onChange([lo, v===''? '': Number(v)])
-          }}
-          placeholder={`${max}`}
-        />
-      </div>
-    </div>
-  )
+      <div className={fixedHeight ? "max-h-24 overflow-auto pr-1" : ""}>{children}</div>
+    </section>
+  );
 }
 
-/** Compact Link Arrows selector (AND), no visible label */
-function LinkArrows({
-  value, onChange,
-}: {
-  value: ArrowCode[];
-  onChange: (v: ArrowCode[]) => void;
-}) {
-  const toggle = (a: ArrowCode) => {
-    onChange(value.includes(a) ? (value.filter(x=>x!==a) as ArrowCode[]) : ([...value, a] as ArrowCode[]))
-  }
-
-  const cells: { code?: ArrowCode }[] = [
-    { code:'TL' }, { code:'T' }, { code:'TR' },
-    { code:'L'  }, {             }, { code:'R'  },
-    { code:'BL' }, { code:'B' }, { code:'BR' },
-  ]
-
-  const tri = (dir: ArrowCode) => {
-    const active = value.includes(dir)
-    const sz = 'w-7 h-7 md:w-8 md:h-8'
-    const base = `rounded bg-neutral-800/70 border border-neutral-700 hover:bg-neutral-700/70 ${sz} transition`
-    const ring = active ? 'ring-2 ring-accent/70 bg-accent/20 border-accent/60' : ''
-    const polys: Record<ArrowCode,string> = {
-      T:  'polygon(50% 0%, 0% 100%, 100% 100%)',
-      TR: 'polygon(100% 0%, 100% 100%, 0% 0%)',
-      R:  'polygon(100% 50%, 0% 0%, 0% 100%)',
-      BR: 'polygon(100% 100%, 0% 100%, 100% 0%)',
-      B:  'polygon(50% 100%, 0% 0%, 100% 0%)',
-      BL: 'polygon(0% 100%, 0% 0%, 100% 100%)',
-      L:  'polygon(0% 50%, 100% 0%, 100% 100%)',
-      TL: 'polygon(0% 0%, 100% 0%, 0% 100%)',
-    }
-    return (
-      <button
-        key={dir}
-        type="button"
-        aria-label={dir}
-        onClick={()=>toggle(dir)}
-        className={`${base} ${ring}`}
-        style={{ clipPath: polys[dir] as any }}
-      />
-    )
-  }
-
-  return (
-    <div className="grid grid-cols-3 gap-1.5 place-items-center" aria-labelledby="link-arrows-label">
-      {/* sr-only label for a11y; not visible */}
-      <span id="link-arrows-label" className="sr-only">Link Arrows</span>
-      {cells.map((c, i) => c.code ? tri(c.code) : <div key={i} className="w-7 h-7 md:w-8 md:h-8" />)}
-    </div>
-  )
-}
+// url helpers
+const getAll = (p: URLSearchParams, k: string) => p.getAll(k);
+const getOne = (p: URLSearchParams, k: string) => p.get(k) ?? "";
+const getNum = (p: URLSearchParams, k: string) => (p.get(k) ? Number(p.get(k)) : undefined);
+const putList = (p: URLSearchParams, k: string, vals: string[]) => {
+  p.delete(k);
+  for (const v of vals) p.append(k, v);
+};
 
 export default function FiltersPanel() {
-  const { indexes } = useCards()
-  const [params, setParams] = useSearchParams()
+  // /cards: only custom cards
+  const { cards, indexes } = useCards({ includeTCG: false, includeCustom: true, includeTest: false });
+  const [params, setParams] = useSearchParams();
 
-  // collapsed state from URL (?filters=0/1); default expanded
-  const collapsedFromURL = params.get('filters') === '0'
-  const [collapsed, setCollapsed] = useState<boolean>(collapsedFromURL)
+  // collapsed state
+  const [collapsed, setCollapsed] = useState(params.get("filters") === "0");
 
-  const getA = (k: string) => {
-    const v = params.getAll(k)
-    if (v.length) return v
-    const single = params.get(k)
-    return single ? [single] : []
-  }
-  const setOrDel = (k: string, v?: string | string[] | '' | null) => {
-    if (!v || (Array.isArray(v) && v.length===0) || v==='') params.delete(k)
-    else if (Array.isArray(v)) { params.delete(k); v.forEach(x=> params.append(k,x)) }
-    else params.set(k, v as string)
-  }
+  // header row
+  const [q, setQ] = useState(getOne(params, "q"));
+  const [setCode, setSetCode] = useState(getOne(params, "set"));
+  const [archetypeSel, setArchetypeSel] = useState(getOne(params, "archetype"));
 
-  // base fields
-  const [q, setQ] = useState(params.get('q') || '')
-  const [category, setCategory] = useState(params.get('category') || '')
-  const [icon, setIcon] = useState(params.get('icon') || '')
-  const [attribute, setAttribute] = useState(params.get('attribute') || '')
-  const [archetype, setArchetype] = useState(getA('archetype'))
-  const [cardTypes, setCardTypes] = useState(getA('cardTypes'))
-  const [monsterType, setMonsterType] = useState(getA('monsterType'))
-  const [setCode, setSetCode] = useState(params.get('set') || '')
-  const [legal, setLegal] = useState<string[]>(getA('legal'))
+  // multi-select chips
+  const [attributes, setAttributes] = useState<string[]>(getAll(params, "attribute"));
+  const [icons, setIcons] = useState<string[]>(getAll(params, "icon"));
+  const [monsterTypes, setMonsterTypes] = useState<string[]>(getAll(params, "monsterType"));
+  const [cardTypes, setCardTypes] = useState<string[]>(getAll(params, "cardTypes"));
 
-  // ranges + toggles
-  const [atk, setAtk] = useState<[number|'', number|'']>([params.get('atkMin')? Number(params.get('atkMin')):'', params.get('atkMax')? Number(params.get('atkMax')):''])
-  const [def, setDef] = useState<[number|'', number|'']>([params.get('defMin')? Number(params.get('defMin')):'', params.get('defMax')? Number(params.get('defMax')):''])
-  const [level, setLevel] = useState<[number|'', number|'']>([params.get('levelMin')? Number(params.get('levelMin')):'', params.get('levelMax')? Number(params.get('levelMax')):''])
-  const [rank, setRank] = useState<[number|'', number|'']>([params.get('rankMin')? Number(params.get('rankMin')):'', params.get('rankMax')? Number(params.get('rankMax')):''])
-  const [link, setLink] = useState<[number|'', number|'']>([params.get('linkMin')? Number(params.get('linkMin')):'', params.get('linkMax')? Number(params.get('linkMax')):''])
-  const [scale, setScale] = useState<[number|'', number|'']>([params.get('scaleMin')? Number(params.get('scaleMin')):'', params.get('scaleMax')? Number(params.get('scaleMax')):''])
+  // single-value pickers (click toggles on/off)
+  const [levelVal, setLevelVal] = useState<number | undefined>(getNum(params, "levelMin"));
+  const [rankVal,  setRankVal]  = useState<number | undefined>(getNum(params, "rankMin"));
+  const [scaleVal, setScaleVal] = useState<number | undefined>(getNum(params, "scaleMin"));
+  const [linkVal,  setLinkVal]  = useState<number | undefined>(getNum(params, "linkMin"));
 
-  const [useAtk, setUseAtk] = useState(params.has('atkMin') || params.has('atkMax'))
-  const [useDef, setUseDef] = useState(params.has('defMin') || params.has('defMax'))
-  const [useLevel, setUseLevel] = useState(params.has('levelMin') || params.has('levelMax'))
-  const [useRank, setUseRank] = useState(params.has('rankMin') || params.has('rankMax'))
-  const [useLink, setUseLink] = useState(params.has('linkMin') || params.has('linkMax'))
-  const [useScale, setUseScale] = useState(params.has('scaleMin') || params.has('scaleMax'))
+  // link arrows (multi)
+  const [arrows, setArrows] = useState<string[]>(getAll(params, "linkArrows"));
 
-  const [linkArrows, setLinkArrows] = useState<ArrowCode[]>(getA('linkArrows') as ArrowCode[])
+  // atk/def numeric
+  const [atkMin, setAtkMin] = useState<number | undefined>(getNum(params, "atkMin"));
+  const [atkMax, setAtkMax] = useState<number | undefined>(getNum(params, "atkMax"));
+  const [defMin, setDefMin] = useState<number | undefined>(getNum(params, "defMin"));
+  const [defMax, setDefMax] = useState<number | undefined>(getNum(params, "defMax"));
 
-  useEffect(()=>{ setQ(params.get('q')||'') }, [params])
+  // legality + date
+  const [legal, setLegal] = useState<string[]>(getAll(params, "legal"));
+  const [dateStart, setDateStart] = useState<string>(getOne(params, "dateStart"));
+  const [dateEnd, setDateEnd] = useState<string>(getOne(params, "dateEnd"));
 
-  const toggleCollapsed = () => {
-    const next = !collapsed
-    setCollapsed(next)
-    if (next) params.set('filters', '0'); else params.set('filters', '1')
-    setParams(params, { replace: true })
-  }
+  useEffect(() => { setQ(getOne(params, "q")); }, [params]);
+
+  const setsOptions = useMemo(() => indexes.setsList ?? [], [indexes.setsList]);
+  const archetypeOptions = useMemo(
+    () => [...new Set(indexes.archetypes ?? [])].sort((a, b) => a.localeCompare(b)),
+    [indexes.archetypes]
+  );
+  const monsterTypeOptions = useMemo(
+    () => [...new Set(cards.flatMap((c: any) => c?.monsterType ?? []))].map(String).sort(),
+    [cards]
+  );
+
+  // togglers
+  const toggle = (list: string[], setList: (v: string[]) => void, value: string) => {
+    setList(list.includes(value) ? list.filter((x) => x !== value) : [...list, value]);
+  };
+  const toggleSingle = (current: number | undefined, set: (v?: number) => void, value: number) => {
+    set(current === value ? undefined : value);
+  };
 
   const apply = () => {
-    setOrDel('q', q)
-    setOrDel('category', category)
-    setOrDel('icon', icon)
-    setOrDel('attribute', attribute)
-    setOrDel('set', setCode)
-    setOrDel('archetype', archetype)
-    setOrDel('cardTypes', cardTypes)
-    setOrDel('monsterType', monsterType)
-    setOrDel('legal', legal)
-    setOrDel('linkArrows', linkArrows)
+    const p = new URLSearchParams(params);
+    const setOrDel = (k: string, v?: string) => (v ? p.set(k, v) : p.delete(k));
+    const setNum = (k: string, v?: number) => (v != null && !Number.isNaN(v) ? p.set(k, String(v)) : p.delete(k));
 
-    const putRange = (name: string, enabled: boolean, [lo, hi]: [number|'', number|''])=>{
-      if (!enabled) {
-        params.delete(`${name}Min`)
-        params.delete(`${name}Max`)
-        return
-      }
-      setOrDel(`${name}Min`, lo===''? null : String(lo))
-      setOrDel(`${name}Max`, hi===''? null : String(hi))
-    }
-    putRange('atk',   useAtk,   atk)
-    putRange('def',   useDef,   def)
-    putRange('level', useLevel, level)
-    putRange('rank',  useRank,  rank)
-    putRange('link',  useLink,  link)
-    putRange('scale', useScale, scale)
+    setOrDel("q", q.trim() || undefined);
+    setOrDel("set", setCode || undefined);
+    setOrDel("archetype", archetypeSel || undefined);
 
-    params.set('filters', collapsed ? '0' : '1')
-    setParams(params, { replace: true })
-  }
+    putList(p, "attribute", attributes);
+    putList(p, "icon", icons);
+    putList(p, "monsterType", monsterTypes);
+    putList(p, "cardTypes", cardTypes);
+
+    // single value -> set both min & max to same, or clear both
+    if (levelVal != null) { setNum("levelMin", levelVal); setNum("levelMax", levelVal); }
+    else { p.delete("levelMin"); p.delete("levelMax"); }
+    if (rankVal != null) { setNum("rankMin", rankVal); setNum("rankMax", rankVal); }
+    else { p.delete("rankMin"); p.delete("rankMax"); }
+    if (scaleVal != null) { setNum("scaleMin", scaleVal); setNum("scaleMax", scaleVal); }
+    else { p.delete("scaleMin"); p.delete("scaleMax"); }
+    if (linkVal != null) { setNum("linkMin", linkVal); setNum("linkMax", linkVal); }
+    else { p.delete("linkMin"); p.delete("linkMax"); }
+
+    putList(p, "linkArrows", arrows);
+
+    setNum("atkMin", atkMin); setNum("atkMax", atkMax);
+    setNum("defMin", defMin); setNum("defMax", defMax);
+
+    putList(p, "legal", legal);
+    setOrDel("dateStart", dateStart || undefined);
+    setOrDel("dateEnd", dateEnd || undefined);
+
+    p.set("filters", collapsed ? "0" : "1");
+    setParams(p, { replace: true });
+  };
 
   const reset = () => {
-    const keepCollapsed = collapsed ? '0' : '1'
-    setParams(new URLSearchParams({ filters: keepCollapsed }), { replace:true })
+    const p = new URLSearchParams();
+    p.set("filters", collapsed ? "0" : "1");
+    setParams(p, { replace: true });
 
-    setQ(''); setCategory(''); setIcon(''); setAttribute(''); setSetCode('')
-    setArchetype([]); setCardTypes([]); setMonsterType([]); setLegal([])
-    setAtk(['','']); setDef(['','']); setLevel(['','']); setRank(['','']); setLink(['','']); setScale(['',''])
-    setUseAtk(false); setUseDef(false); setUseLevel(false); setUseRank(false); setUseLink(false); setUseScale(false)
-    setLinkArrows([])
-  }
-
-  const archetypesFromData = useMemo(
-    () => indexes.archetypes ?? [],
-    [indexes.archetypes]
-  )
+    setQ(""); setSetCode(""); setArchetypeSel("");
+    setAttributes([]); setIcons([]); setMonsterTypes([]); setCardTypes([]);
+    setLevelVal(undefined); setRankVal(undefined); setScaleVal(undefined); setLinkVal(undefined);
+    setArrows([]); setAtkMin(undefined); setAtkMax(undefined); setDefMin(undefined); setDefMax(undefined);
+    setLegal([]); setDateStart(""); setDateEnd("");
+  };
 
   return (
-    <div className="card mb-4">
-      {/* Row 1: search + set + actions + collapse toggle */}
-      <div className="flex flex-col gap-2 md:flex-row md:items-center">
+    <div className="mb-4 rounded-2xl bg-neutral-950 border border-neutral-800 p-3 md:p-4">
+      {/* Header row: Search + Set + Archetype + Actions */}
+      <form
+        className="grid gap-2 md:grid-cols-[1fr,12rem,12rem,auto] md:items-center"
+        onSubmit={(e) => { e.preventDefault(); apply(); }}
+      >
         <input
           placeholder="Search keyword/name/text…"
           value={q}
-          onChange={e=>setQ(e.target.value)}
-          className="flex-1 bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-2 text-sm"
+          onChange={(e) => setQ(e.target.value)}
+          className="bg-neutral-900 border border-neutral-700 rounded-lg px-3 py-2 text-sm"
         />
-        <Select
+        <select
+          className="bg-neutral-900 border border-neutral-700 rounded-lg px-2.5 py-2 text-sm min-w-[10rem]"
           value={setCode}
-          onChange={v=>setSetCode(v as string)}
-          options={indexes.setsList.map(s=>`${s.code}`)}
-          placeholder="All Sets"
-        />
-        <div className="flex gap-2">
-          <button className="btn" onClick={toggleCollapsed}>
-            {collapsed ? 'Show Filters' : 'Hide Filters'}
+          onChange={(e) => setSetCode(e.target.value)}
+        >
+          <option value="">All Sets</option>
+          {setsOptions.map((s: any) => (
+            <option key={s.code} value={s.code}>{s.code}</option>
+          ))}
+        </select>
+        <select
+          className="bg-neutral-900 border border-neutral-700 rounded-lg px-2.5 py-2 text-sm min-w-[10rem]"
+          value={archetypeSel}
+          onChange={(e) => setArchetypeSel(e.target.value)}
+        >
+          <option value="">All Archetypes</option>
+          {archetypeOptions.map((a) => (
+            <option key={a} value={a}>{a}</option>
+          ))}
+        </select>
+
+        <div className="flex gap-2 md:justify-end">
+          <button
+            type="button"
+            className="btn"
+            onClick={() => {
+              const n = !collapsed;
+              setCollapsed(n);
+              params.set("filters", n ? "0" : "1");
+              setParams(params, { replace: true });
+            }}
+          >
+            {collapsed ? "Show Filters" : "Hide Filters"}
           </button>
-          <button className="btn" onClick={reset}>Reset</button>
-          <button className="btn btn-primary" onClick={apply}>Apply</button>
+          <button type="button" className="btn" onClick={reset}>Reset</button>
+          <button type="submit" className="btn btn-primary">Apply</button>
         </div>
-      </div>
+      </form>
 
-      {/* Hidden when collapsed */}
       {!collapsed && (
-        <>
-          {/* Row 2: core dropdowns */}
-          <div className="grid md:grid-cols-4 gap-3 mt-4">
-            <Section title="Category">
-              <Select value={category} onChange={v=>setCategory(v as string)} options={[...CATEGORY]} placeholder="Any" />
-            </Section>
-            <Section title="Icon">
-              <Select value={icon} onChange={v=>setIcon(v as string)} options={[...ICONS]} placeholder="Any" />
-            </Section>
-            <Section title="Attribute">
-              <Select value={attribute} onChange={v=>setAttribute(v as string)} options={[...ATTRIBUTES]} placeholder="Any" />
-            </Section>
-            <Section title="Archetype">
-              <Select value={archetype[0] || ''} onChange={v=>setArchetype(v ? [v as string] : [])} options={archetypesFromData} placeholder="Any" />
-            </Section>
-          </div>
-
-          {/* Row 3: LEFT = Card Types + Legality, RIGHT = Monster Types */}
-          <div className="grid md:grid-cols-2 gap-4 mt-4">
-            <div className="space-y-4">
-              <Section title="Card Types">
-                <MultiChips value={cardTypes} onChange={setCardTypes} options={[...CARD_TYPES]} />
-              </Section>
-              <Section title="Legality">
-                <MultiChips value={legal} onChange={setLegal} options={[...LEGAL]} />
-              </Section>
+        <div className="mt-4 grid gap-3 md:gap-4 md:grid-cols-2">
+          {/* Row 1: Attribute | Icon */}
+          <Section
+            title="Attribute"
+            onClear={attributes.length ? () => setAttributes([]) : undefined}
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {ATTRS.map((a) => (
+                <Chip key={a} active={attributes.includes(a)} onClick={() => toggle(attributes, setAttributes, a)}>
+                  {a}
+                </Chip>
+              ))}
             </div>
+          </Section>
 
-            <Section title="Monster Types">
-              <MultiChips value={monsterType} onChange={setMonsterType} options={[...MONSTER_TYPES]} />
-            </Section>
-          </div>
+          <Section
+            title="Icon"
+            onClear={icons.length ? () => setIcons([]) : undefined}
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {ICONS.map((i) => (
+                <Chip key={i} active={icons.includes(i)} onClick={() => toggle(icons, setIcons, i)}>
+                  {i}
+                </Chip>
+              ))}
+            </div>
+          </Section>
 
-          {/* Row 4: numeric ranges + Link Arrows (inline, no label) */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-[1fr_1fr_auto] gap-4 mt-4 items-end">
-            <div className="space-y-2.5">
-              <RangeWithToggle label="ATK"   min={0} max={6000} step={100} values={atk}   onChange={setAtk}   enabled={useAtk}   onToggle={setUseAtk} />
-              <RangeWithToggle label="DEF"   min={0} max={6000} step={100} values={def}   onChange={setDef}   enabled={useDef}   onToggle={setUseDef} />
-              <RangeWithToggle label="Scale" min={0} max={13}   step={1}   values={scale} onChange={setScale} enabled={useScale} onToggle={setUseScale} />
+          {/* Row 2: Monster Type | Card Type */}
+          <Section
+            title="Monster Type"
+            onClear={monsterTypes.length ? () => setMonsterTypes([]) : undefined}
+            fixedHeight
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {monsterTypeOptions.map((t) => (
+                <Chip
+                  key={t}
+                  active={monsterTypes.includes(String(t))}
+                  onClick={() => toggle(monsterTypes, setMonsterTypes, String(t))}
+                >
+                  {t}
+                </Chip>
+              ))}
             </div>
-            <div className="space-y-2.5">
-              <RangeWithToggle label="Level" min={0} max={12} step={1} values={level} onChange={setLevel} enabled={useLevel} onToggle={setUseLevel} />
-              <RangeWithToggle label="Rank"  min={0} max={13} step={1} values={rank}  onChange={setRank}  enabled={useRank}  onToggle={setUseRank} />
-              <RangeWithToggle label="Link"  min={0} max={6}  step={1} values={link}  onChange={setLink}  enabled={useLink}  onToggle={setUseLink} />
-            </div>
+          </Section>
 
-            {/* Inline with ranges; no visible label */}
-            <div className="lg:self-end">
-              <span id="link-arrows-label" className="sr-only">Link Arrows</span>
-              <LinkArrows value={linkArrows} onChange={setLinkArrows} />
+          <Section
+            title="Card Type"
+            onClear={cardTypes.length ? () => setCardTypes([]) : undefined}
+            fixedHeight
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {CARD_TYPES.map((t) => (
+                <Chip key={t} active={cardTypes.includes(t)} onClick={() => toggle(cardTypes, setCardTypes, t)}>
+                  {t}
+                </Chip>
+              ))}
             </div>
-          </div>
-        </>
+          </Section>
+
+          {/* Row 3: Level | Rank */}
+          <Section title="Level">
+            <div className="flex flex-wrap gap-1">
+              {LEVELS.map((n) => (
+                <Chip key={`L${n}`} active={levelVal === n} onClick={() => toggleSingle(levelVal, setLevelVal, n)}>
+                  {n}
+                </Chip>
+              ))}
+            </div>
+          </Section>
+
+          <Section title="Rank">
+            <div className="flex flex-wrap gap-1">
+              {LEVELS.map((n) => (
+                <Chip key={`R${n}`} active={rankVal === n} onClick={() => toggleSingle(rankVal, setRankVal, n)}>
+                  {n}
+                </Chip>
+              ))}
+            </div>
+          </Section>
+
+          {/* Row 4: Pendulum | Link Rating */}
+          <Section title="Pendulum">
+            <div className="flex flex-wrap gap-1">
+              {SCALES.map((n) => (
+                <Chip key={`S${n}`} active={scaleVal === n} onClick={() => toggleSingle(scaleVal, setScaleVal, n)}>
+                  {n}
+                </Chip>
+              ))}
+            </div>
+          </Section>
+
+          <Section title="Link Rating">
+            <div className="flex flex-wrap gap-1">
+              {LINK_RATINGS.map((n) => (
+                <Chip key={`LR${n}`} active={linkVal === n} onClick={() => toggleSingle(linkVal, setLinkVal, n)}>
+                  {n}
+                </Chip>
+              ))}
+            </div>
+          </Section>
+
+          {/* Row 5: Link Arrows | Legality */}
+          <Section
+            title="Link Arrows"
+            onClear={arrows.length ? () => setArrows([]) : undefined}
+          >
+            <div className="grid grid-cols-3 gap-1 w-[180px]">
+              {ARROWS_GRID.map((a, i) =>
+                a ? (
+                  <Chip
+                    key={a}
+                    active={arrows.includes(a)}
+                    onClick={() => toggle(arrows, setArrows, a)}
+                    title={a}
+                  >
+                    {a}
+                  </Chip>
+                ) : (
+                  <div
+                    key={`blank-${i}`}
+                    aria-hidden
+                    className="px-3 py-1.5 rounded-md border border-neutral-800 bg-neutral-900 opacity-50 select-none"
+                  />
+                )
+              )}
+            </div>
+          </Section>
+
+          <Section
+            title="Legality"
+            onClear={legal.length ? () => setLegal([]) : undefined}
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {["Banned", "Limited", "Semi-Limited", "Legal"].map((v) => (
+                <Chip key={v} active={legal.includes(v)} onClick={() => toggle(legal, setLegal, v)}>
+                  {v}
+                </Chip>
+              ))}
+            </div>
+          </Section>
+
+          {/* Row 6: ATK/DEF | Dates */}
+          <Section title="ATK / DEF">
+            <div className="flex flex-wrap items-center gap-2">
+              <label className="text-xs text-neutral-300">ATK</label>
+              <input
+                type="number"
+                className="bg-neutral-900 border border-neutral-700 rounded-lg px-2 py-1.5 text-sm w-24"
+                placeholder="min"
+                value={atkMin ?? ""}
+                onChange={(e) => setAtkMin(e.target.value ? Number(e.target.value) : undefined)}
+              />
+              <span className="text-neutral-500">–</span>
+              <input
+                type="number"
+                className="bg-neutral-900 border border-neutral-700 rounded-lg px-2 py-1.5 text-sm w-24"
+                placeholder="max"
+                value={atkMax ?? ""}
+                onChange={(e) => setAtkMax(e.target.value ? Number(e.target.value) : undefined)}
+              />
+
+              <label className="ml-3 text-xs text-neutral-300">DEF</label>
+              <input
+                type="number"
+                className="bg-neutral-900 border border-neutral-700 rounded-lg px-2 py-1.5 text-sm w-24"
+                placeholder="min"
+                value={defMin ?? ""}
+                onChange={(e) => setDefMin(e.target.value ? Number(e.target.value) : undefined)}
+              />
+              <span className="text-neutral-500">–</span>
+              <input
+                type="number"
+                className="bg-neutral-900 border border-neutral-700 rounded-lg px-2 py-1.5 text-sm w-24"
+                placeholder="max"
+                value={defMax ?? ""}
+                onChange={(e) => setDefMax(e.target.value ? Number(e.target.value) : undefined)}
+              />
+            </div>
+          </Section>
+
+          <Section title="Initial Release Date">
+            <div className="flex flex-wrap items-center gap-2">
+              <label className="text-xs text-neutral-300">Start</label>
+              <input
+                type="date"
+                className="bg-neutral-900 border border-neutral-700 rounded-lg px-2 py-1.5 text-sm"
+                value={dateStart}
+                onChange={(e) => setDateStart(e.target.value)}
+              />
+              <label className="ml-2 text-xs text-neutral-300">End</label>
+              <input
+                type="date"
+                className="bg-neutral-900 border border-neutral-700 rounded-lg px-2 py-1.5 text-sm"
+                value={dateEnd}
+                onChange={(e) => setDateEnd(e.target.value)}
+              />
+            </div>
+          </Section>
+        </div>
       )}
     </div>
-  )
+  );
 }

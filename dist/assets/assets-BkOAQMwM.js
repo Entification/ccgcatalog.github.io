@@ -1,0 +1,1 @@
+function i(t){if(!t)return t;const s=t.toLowerCase();if(s.startsWith("http://")||s.startsWith("https://")||s.startsWith("data:")||s.startsWith("blob:"))return t;const e="/ccgcatalog.github.io/".trim(),r=e.endsWith("/")?e.slice(0,-1):e,a=t.replace(/^\/+/,"");return`${r}/${a}`}export{i as a};
